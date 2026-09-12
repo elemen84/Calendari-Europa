@@ -43,7 +43,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install dependencies
-        run: python -m pip install -r requirements.txt
+        run: python -m pip install -e '.[dev]'
       - name: Tests before sync
         run: python -m pytest
       - name: Sync official RFEF source

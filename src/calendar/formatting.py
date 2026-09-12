@@ -30,6 +30,11 @@ def description_for_game(game: Game, *, updated_at: datetime | None = None) -> s
     lines: list[str] = []
     if not game.time_confirmed:
         lines.append("Hora del partit encara per confirmar.")
+    if game.secondary_candidate_time is not None and not game.time_confirmed:
+        lines.append(
+            "Hora candidata no confirmada (font secundària): "
+            f"{game.secondary_candidate_time.strftime('%d/%m/%Y %H:%M')}"
+        )
     lines.extend(
         [
             f"Competició: {game.competition_name}",

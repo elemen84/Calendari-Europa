@@ -23,9 +23,22 @@ def main() -> int:
     sys.path.insert(0, str(ROOT))
     from src.config import SYNC_INTERVAL_HOURS, load_config
     from src.http_client import OfficialHttpError, RequestsSessionClient
+    from src.models import ProviderResult
     from src.providers.common import SourceDataError
+    from src.providers.flashscore import FlashscoreProvider, RequestsFlashscoreClient
     from src.providers.rfef import RFEFProvider
-    from src.sync import build_calendar, load_sync_state, persist_build, should_sync
+    from src.providers.rfef_schedule import (
+        RequestsOfficialScheduleClient,
+        RFEFOfficialScheduleProvider,
+    )
+    from src.sync import (
+        apply_official_schedule,
+        build_calendar,
+        load_sync_state,
+        merge_primary_secondary,
+        persist_build,
+        should_sync,
+    )
 
     args = parse_args(interval_hours=SYNC_INTERVAL_HOURS)
     try:
@@ -40,7 +53,24 @@ def main() -> int:
             )
             return 0
         provider = RFEFProvider(config, RequestsSessionClient())
-        fetched = provider.fetch()
+        try:
+            rfef_fetched = provider.fetch()
+        except (OfficialHttpError, SourceDataError, RuntimeError, ValueError) as exc:
+            rfef_fetched = ProviderResult(
+                competition_key="primera-federacion",
+                games=(),
+                errors=(f"RFEF fetch fallit: {exc}",),
+                source_note="RFEF no disponible; baseline/cache protegit; secondary diagnòstic.",
+            )
+        official_schedule = RFEFOfficialScheduleProvider(
+            config,
+            RequestsOfficialScheduleClient(),
+        )
+        official_schedule_fetched = official_schedule.fetch()
+        rfef_fetched = apply_official_schedule(rfef_fetched, official_schedule_fetched)
+        secondary = FlashscoreProvider(config, RequestsFlashscoreClient())
+        secondary_fetched = secondary.fetch()
+        fetched = merge_primary_secondary(rfef_fetched, secondary_fetched, season=config.label)
         build = build_calendar(
             config,
             {"primera-federacion": (provider, fetched)},
@@ -54,6 +84,12 @@ def main() -> int:
                 print(f"  - {error}")
             if len(fetched.errors) > 5:
                 print(f"  - ... i {len(fetched.errors) - 5} avisos més")
+        if fetched.warnings:
+            print(f"Avisos de merge/provenance: {len(fetched.warnings)}")
+            for warning in fetched.warnings[:5]:
+                print(f"  - {warning}")
+            if len(fetched.warnings) > 5:
+                print(f"  - ... i {len(fetched.warnings) - 5} avisos més")
         if args.dry_run:
             print("Dry-run: cap fitxer modificat.")
             return 0

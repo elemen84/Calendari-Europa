@@ -9,11 +9,16 @@ competició o fase.
 ## Arquitectura
 
 - Python 3.12, `requests` i fitxers JSON; sense base de dades ni framework frontend.
-- `src/providers/rfef.py` és l'únic provider i manté aïllada la lògica específica de la RFEF.
+- `src/providers/rfef.py` manté aïllada la font autoritativa RFEF i `src/providers/flashscore.py`
+  manté aïllada la font secundària estructurada.
+- `src/providers/rfef_schedule.py` descobreix els comunicats de calendaris RFEF i carrega el
+  snapshot de patches oficials verificats.
 - `src/providers/rfef_html.py` construeix un arbre HTML amb la biblioteca estàndard i llegeix
   estructuralment les taules, files, equips, dates, hores, estadis, resultats i `CodActa`.
 - `src/calendar/` genera un ICS RFC 5545 amb `Europe/Madrid`, events timed o all-day i escapament/folding.
 - `data/baseline/` conserva el baseline dels 38 emparellaments extret del PDF oficial de la RFEF.
+- `data/official-schedule/` conserva snapshots verificats de les publicacions RFEF que confirmen
+  data i hora. Les graelles actuals són imatges i no s'hi aplica OCR.
 - `data/provider-cache/` conserva l'últim conjunt complet validat i `data/sync-state.json` aplica el gate de 24 h.
 - `public/` és una landing estàtica compatible amb GitHub Pages i amb assets relatius.
 
@@ -58,6 +63,31 @@ reporta. Una resposta de 0 partits no pot substituir un conjunt vàlid ni public
 Si el portal RFEF falla completament, el baseline local oficial permet mantenir els 38 emparellaments
 amb hora desconeguda; si tampoc existeix un baseline/cache vàlid, el sync s'atura sense escriure.
 
+## Comunicats oficials RFEF
+
+El sync consulta el llistat oficial de [Primera Federació](https://rfef.es/es/competiciones/primera-federacion)
+i descobreix automàticament nous articles de "Horarios y televisiones de la jornada" mitjançant
+HTML estructurat. Les publicacions actuals inclouen la graella del Grup 2 només com a imatge; per
+seguretat no s'intenta OCR ni s'infereixen hores. Les dades ja verificades es mantenen al snapshot
+JSON i prevalen sobre `NFG_CmpJornada`, inclòs el cas J1 19:15 davant d'una hora efectiva 19:17 del
+portal. Si apareix un comunicat nou, el sync el reporta perquè es pugui verificar i afegir al snapshot.
+
+## Font secundària i merge
+
+El sync consulta també el feed XHR estructurat de [Flashscore Primera Federació Grup 2](https://www.flashscore.es/futbol/espana/primera-rfef-grupo-2/)
+mitjançant els feeds `tr` i `tf` de `global.flashscore.ninja`. No utilitza navegador, OCR, cookies
+manuals ni secrets. El provider rebutja contextos que no siguin Primera Federació Grup 2, valida els
+38 partits del CE Europa i falla tancat davant feeds buits, incomplets o incoherents.
+
+RFEF té precedència absoluta. Flashscore no completa ni data, ni hora, ni estadi, ni resultat del
+calendari publicable. Si RFEF no té hora, la seva hora es conserva únicament com a
+`secondary_candidate_time`, amb provenance `secondary` i warning; el `VEVENT` continua sent all-day.
+Una coincidència Flashscore/RFEF només queda marcada com a cross-check. Una contradicció conserva RFEF
+i genera warning. Una resposta Flashscore completa no pot substituir un RFEF buit o invàlid.
+
+Cada `Game` persisteix provenance per camp (`rfef_baseline`, `rfef_live`, `secondary`, `cache` o
+`rfef_official_schedule`), de manera que una hora candidata no es confon amb una confirmació RFEF.
+
 ## Execució local
 
 ```bash
@@ -81,7 +111,7 @@ Variables disponibles: `EUROPA_SEASON_START_YEAR` (per defecte `2026`) i
 
 ## GitHub Pages i Actions
 
-`.github/workflows/calendar.yml` comprova el projecte, executa el sync RFEF, compara dades i només
+`.github/workflows/calendar.yml` comprova el projecte, executa el sync RFEF + Flashscore, compara dades i només
 crea un commit automàtic si canvien el cache o `public/europa.ics`. El cron és `15 4 * * *` (04:15
 UTC), el gate efectiu és de 24 hores i `workflow_dispatch` permet `force`. La concurrència usa
 `cancel-in-progress: true`; el deploy es fa amb l'artifact de `public/`.

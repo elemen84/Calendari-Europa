@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
@@ -10,7 +10,9 @@ from src.calendar.formatting import description_for_game
 from src.calendar.ics import write_ics
 from src.config import SYNC_INTERVAL_HOURS, SeasonConfig
 from src.models import Game, ProviderResult
-from src.normalize import is_europa, source_key
+from src.normalize import is_europa, normalize_text, source_key
+from src.providers.common import madrid_datetime
+from src.providers.rfef_schedule import OfficialScheduleResult
 
 
 @dataclass(frozen=True, slots=True)
@@ -81,7 +83,36 @@ def _load_cached_games(path: Path) -> tuple[Game, ...]:
         payload = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(payload, list):
             return ()
-        return tuple(Game.from_dict(item) for item in payload if isinstance(item, dict))
+        games: list[Game] = []
+        for item in payload:
+            if not isinstance(item, dict):
+                continue
+            game = Game.from_dict(item)
+            provenance = dict(game.provenance)
+            provenance["cache"] = "cache"
+            # Older caches were generated before Flashscore became diagnostic-only.
+            # Never re-promote one of those secondary kickoffs to a public timed event.
+            if provenance.get("time") == "secondary":
+                candidate = game.secondary_candidate_time or game.start_datetime
+                game = replace(
+                    game,
+                    start_datetime=None,
+                    time_confirmed=False,
+                    secondary_candidate_time=candidate,
+                )
+                provenance.pop("time", None)
+                if candidate is not None:
+                    provenance["secondary_candidate_time"] = "secondary"
+            if game.start_date is not None:
+                provenance.setdefault("date", "cache")
+            if game.time_confirmed:
+                provenance.setdefault("time", "cache")
+            if game.venue:
+                provenance.setdefault("stadium", "cache")
+            if _game_score(game) is not None:
+                provenance.setdefault("score", "cache")
+            games.append(replace(game, provenance=provenance))
+        return tuple(games)
     except (OSError, json.JSONDecodeError, TypeError, ValueError):
         return ()
 
@@ -114,6 +145,222 @@ def _basic_valid(games: tuple[Game, ...], *, season: str = "2026/2027") -> bool:
     )
 
 
+def _game_score(game: Game) -> tuple[int, int] | None:
+    if game.home_score is None or game.away_score is None:
+        return None
+    return game.home_score, game.away_score
+
+
+def _merge_primary_game(primary: Game, secondary: Game) -> tuple[Game, tuple[str, ...]]:
+    """Cross-check secondary sense convertir-lo en autoritat de calendari."""
+    warnings: list[str] = []
+    round_label = f"J{primary.round_number}"
+    merged = primary
+    provenance = dict(primary.provenance)
+
+    if (
+        primary.start_date is not None
+        and secondary.start_date is not None
+        and primary.start_date != secondary.start_date
+    ):
+        warnings.append(
+            f"{round_label}: discrepància de data RFEF {primary.start_date} vs "
+            f"secondary {secondary.start_date}; es conserva RFEF"
+        )
+
+    if primary.time_confirmed and secondary.time_confirmed:
+        if primary.start_datetime == secondary.start_datetime:
+            provenance["secondary_crosscheck"] = "secondary"
+        else:
+            warnings.append(
+                f"{round_label}: discrepància d'hora RFEF {primary.start_datetime} vs "
+                f"secondary {secondary.start_datetime}; es conserva RFEF"
+            )
+    elif not primary.time_confirmed and secondary.time_confirmed:
+        # Es conserva all-day fins que RFEF confirme el kickoff. El valor queda
+        # persistit només com a candidat diagnóstico, mai com a DTSTART.
+        merged = replace(
+            merged,
+            secondary_candidate_time=secondary.start_datetime,
+        )
+        provenance["secondary_candidate_time"] = "secondary"
+        warnings.append(
+            f"{round_label}: hora secondary {secondary.start_datetime} no confirmada; "
+            "es manté esdeveniment all-day"
+        )
+
+    if primary.venue and secondary.venue:
+        if normalize_text(primary.venue) != normalize_text(secondary.venue):
+            warnings.append(
+                f"{round_label}: discrepància d'estadi RFEF {primary.venue!r} vs "
+                f"secondary {secondary.venue!r}; es conserva RFEF"
+            )
+    primary_score = _game_score(primary)
+    secondary_score = _game_score(secondary)
+    if primary_score is not None and secondary_score is not None:
+        if primary_score != secondary_score:
+            warnings.append(
+                f"{round_label}: discrepància de resultat RFEF {primary_score} vs "
+                f"secondary {secondary_score}; es conserva RFEF"
+            )
+    merged = replace(
+        merged,
+        source_identifiers={**secondary.source_identifiers, **primary.source_identifiers},
+        provenance=provenance,
+    )
+    return merged, tuple(warnings)
+
+
+def merge_primary_secondary(
+    primary: ProviderResult,
+    secondary: ProviderResult,
+    *,
+    season: str = "2026/2027",
+) -> ProviderResult:
+    """Combina RFEF i secondary amb precedència explícita per camp."""
+    warnings = list(primary.warnings)
+    warnings.extend(f"secondary: {error}" for error in secondary.errors)
+    primary_valid = _basic_valid(primary.games, season=season)
+    secondary_valid = _basic_valid(secondary.games, season=season)
+
+    if not secondary_valid:
+        return ProviderResult(
+            competition_key=primary.competition_key,
+            games=primary.games,
+            errors=primary.errors,
+            source_note=primary.source_note,
+            updated_rounds=primary.updated_rounds,
+            baseline_fallback=primary.baseline_fallback,
+            warnings=tuple(warnings),
+        )
+    if not primary_valid:
+        warnings.append(
+            "RFEF no ha produït un conjunt vàlid; secondary no es pot usar com a "
+            "fallback de publicació"
+        )
+        return ProviderResult(
+            competition_key=primary.competition_key,
+            games=primary.games,
+            errors=primary.errors,
+            source_note=primary.source_note,
+            updated_rounds=primary.updated_rounds,
+            baseline_fallback=primary.baseline_fallback,
+            warnings=tuple(warnings),
+        )
+
+    primary_keys = {source_key(game) for game in primary.games}
+    secondary_keys = {source_key(game) for game in secondary.games}
+    if primary_keys != secondary_keys:
+        warnings.append(
+            "secondary: les claus de partit no coincideixen amb RFEF; "
+            "s'ignora el conjunt secundari"
+        )
+        return ProviderResult(
+            competition_key=primary.competition_key,
+            games=primary.games,
+            errors=primary.errors,
+            source_note=primary.source_note,
+            updated_rounds=primary.updated_rounds,
+            baseline_fallback=primary.baseline_fallback,
+            warnings=tuple(warnings),
+        )
+
+    secondary_by_key = {source_key(game): game for game in secondary.games}
+    merged_games: list[Game] = []
+    for game in primary.games:
+        merged, game_warnings = _merge_primary_game(game, secondary_by_key[source_key(game)])
+        merged_games.append(merged)
+        warnings.extend(game_warnings)
+    return ProviderResult(
+        competition_key=primary.competition_key,
+        games=tuple(sorted(merged_games, key=lambda game: source_key(game))),
+        errors=primary.errors,
+        source_note=(
+            f"{primary.source_note or 'RFEF'} + "
+            f"{secondary.source_note or 'secondary'}"
+        ),
+        updated_rounds=primary.updated_rounds,
+        baseline_fallback=primary.baseline_fallback,
+        warnings=tuple(warnings),
+    )
+
+
+def apply_official_schedule(
+    primary: ProviderResult,
+    schedule: OfficialScheduleResult,
+) -> ProviderResult:
+    """Aplica patches oficials RFEF abans del cross-check secundari."""
+    warnings = list(primary.warnings)
+    warnings.extend(f"official_schedule: {item}" for item in schedule.errors)
+    warnings.extend(f"official_schedule: {item}" for item in schedule.warnings)
+    if not schedule.patches:
+        return ProviderResult(
+            competition_key=primary.competition_key,
+            games=primary.games,
+            errors=primary.errors,
+            source_note=primary.source_note,
+            updated_rounds=primary.updated_rounds,
+            baseline_fallback=primary.baseline_fallback,
+            warnings=tuple(warnings),
+        )
+
+    patches = {
+        (
+            patch.round_number,
+            normalize_text(patch.home),
+            normalize_text(patch.away),
+        ): patch
+        for patch in schedule.patches
+    }
+    updated_rounds = set(primary.updated_rounds)
+    applied: set[tuple[int, str, str]] = set()
+    games: list[Game] = []
+    for game in primary.games:
+        key = (game.round_number or 0, normalize_text(game.home), normalize_text(game.away))
+        patch = patches.get(key)
+        if patch is None:
+            games.append(game)
+            continue
+        provenance = dict(game.provenance)
+        provenance["date"] = "rfef_official_schedule"
+        provenance["time"] = "rfef_official_schedule"
+        if patch.venue:
+            provenance["stadium"] = "rfef_official_schedule"
+        identifiers = {
+            **game.source_identifiers,
+            "official_schedule_url": patch.source_url,
+        }
+        games.append(
+            replace(
+                game,
+                start_date=patch.start_date,
+                start_datetime=madrid_datetime(patch.start_date, patch.kickoff),
+                time_confirmed=True,
+                venue=patch.venue or game.venue,
+                source_identifiers=identifiers,
+                provenance=provenance,
+                secondary_candidate_time=None,
+            )
+        )
+        updated_rounds.add(patch.round_number)
+        applied.add(key)
+    for key in patches:
+        if key not in applied:
+            warnings.append(
+                f"J{key[0]}: patch oficial RFEF no coincideix amb el baseline "
+                f"({key[1]} vs {key[2]})"
+            )
+    return ProviderResult(
+        competition_key=primary.competition_key,
+        games=tuple(games),
+        errors=primary.errors,
+        source_note=primary.source_note,
+        updated_rounds=frozenset(updated_rounds),
+        baseline_fallback=primary.baseline_fallback,
+        warnings=tuple(warnings),
+    )
+
+
 def _merge(current: tuple[Game, ...], cached: tuple[Game, ...]) -> tuple[Game, ...]:
     by_key = {source_key(game): game for game in cached}
     by_key.update({source_key(game): game for game in current})
@@ -126,12 +373,70 @@ def _merge_fallback(
     *,
     updated_rounds: frozenset[int],
 ) -> tuple[Game, ...]:
-    """Merge fallback baseline while preserving cache data absent from the live update."""
+    """Merge baseline/live with cache without promoting secondary kickoffs."""
+    trusted_sources = {
+        "rfef_official_schedule",
+        "rfef_live",
+        "rfef_baseline",
+        "cache",
+    }
     by_key = {source_key(game): game for game in cached}
     cached_keys = set(by_key)
     for game in current:
-        if source_key(game) not in cached_keys or game.round_number in updated_rounds:
-            by_key[source_key(game)] = game
+        key = source_key(game)
+        if key not in cached_keys:
+            by_key[key] = game
+            continue
+        cached_game = by_key[key]
+        selected = game
+        provenance = dict(game.provenance)
+        cached_date_source = cached_game.provenance.get("date", "cache")
+        cached_time_source = cached_game.provenance.get("time", "cache")
+        round_updated = game.round_number in updated_rounds
+
+        # If this round was not updated by RFEF, a previously validated RFEF
+        # cache may be newer than the structural baseline. A legacy secondary
+        # date is deliberately excluded from this choice.
+        if (
+            not round_updated
+            and game.provenance.get("date") not in {"rfef_official_schedule", "rfef_live"}
+            and cached_game.start_date is not None
+            and cached_date_source in trusted_sources
+        ):
+            selected = replace(
+                selected,
+                start_date=cached_game.start_date,
+            )
+            provenance["date"] = cached_date_source
+
+        if (
+            not selected.time_confirmed
+            and cached_game.time_confirmed
+            and cached_time_source in trusted_sources
+        ):
+            selected = replace(
+                selected,
+                start_datetime=cached_game.start_datetime,
+                time_confirmed=True,
+            )
+            provenance["time"] = cached_time_source
+        candidate = selected.secondary_candidate_time or cached_game.secondary_candidate_time
+        if candidate is not None and not selected.time_confirmed:
+            selected = replace(selected, secondary_candidate_time=candidate)
+            provenance["secondary_candidate_time"] = "secondary"
+        if selected.venue is None and cached_game.venue:
+            selected = replace(selected, venue=cached_game.venue)
+            provenance["stadium"] = "cache"
+        if _game_score(selected) is None and _game_score(cached_game) is not None:
+            selected = replace(
+                selected,
+                home_score=cached_game.home_score,
+                away_score=cached_game.away_score,
+                status=cached_game.status,
+            )
+            provenance["score"] = "cache"
+            provenance["status"] = "cache"
+        by_key[key] = replace(selected, provenance=provenance)
     return tuple(sorted(by_key.values(), key=lambda game: source_key(game)))
 
 
@@ -187,6 +492,7 @@ def build_calendar(
             source_note=fetched.source_note,
             updated_rounds=fetched.updated_rounds,
             baseline_fallback=fetched.baseline_fallback,
+            warnings=fetched.warnings,
         )
         for game in selected:
             key = source_key(game)

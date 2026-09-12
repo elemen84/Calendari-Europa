@@ -1,0 +1,65 @@
+{
+  "season_id": "22",
+  "competition_id": "33836088",
+  "group_id": "33836090",
+  "team_id": "206320",
+  "verified_entries": 7,
+  "entries": [
+    {
+      "round_number": 1,
+      "home": "CE Europa",
+      "away": "Real Jaén CF",
+      "date": "2026-08-30",
+      "time": "19:15",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-1-de-primera-federacion-temporada-202627"
+    },
+    {
+      "round_number": 2,
+      "home": "AD Alcorcón",
+      "away": "CE Europa",
+      "date": "2026-09-06",
+      "time": "18:15",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-2-de-primera-federacion-temporada-202627"
+    },
+    {
+      "round_number": 3,
+      "home": "CE Europa",
+      "away": "Hércules de Alicante CF",
+      "date": "2026-09-12",
+      "time": "16:30",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-3-de-primera-federacion-temporada-202627"
+    },
+    {
+      "round_number": 4,
+      "home": "Real Murcia CF",
+      "away": "CE Europa",
+      "date": "2026-09-19",
+      "time": "16:30",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-4-de-primera-federacion-temporada-202627"
+    },
+    {
+      "round_number": 5,
+      "home": "CE Europa",
+      "away": "CF Rayo Majadahonda",
+      "date": "2026-09-27",
+      "time": "16:00",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-5-de-primera-federacion-temporada-202627"
+    },
+    {
+      "round_number": 6,
+      "home": "SD Huesca",
+      "away": "CE Europa",
+      "date": "2026-10-04",
+      "time": "14:15",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-6-de-primera-federacion-temporada-202627"
+    },
+    {
+      "round_number": 7,
+      "home": "CE Europa",
+      "away": "Algeciras CF",
+      "date": "2026-10-11",
+      "time": "18:15",
+      "source_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-7-de-primera-federacion-temporada-202627"
+    }
+  ]
+}

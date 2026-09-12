@@ -110,7 +110,13 @@ class RFEFProvider:
             identifiers["away_team_id"] = parsed.away_code
         return identifiers
 
-    def _game_from_parsed(self, parsed: ParsedMatch, *, source_url: str) -> Game:
+    def _game_from_parsed(
+        self,
+        parsed: ParsedMatch,
+        *,
+        source_url: str,
+        provenance: str = "rfef_live",
+    ) -> Game:
         if not is_europa(parsed.home) and not is_europa(parsed.away):
             raise SourceDataError("El partit no inclou el CE Europa")
         if is_europa(parsed.home) and is_europa(parsed.away):
@@ -125,6 +131,17 @@ class RFEFProvider:
         )
         home_score, away_score = parsed.score or (None, None)
         status = parsed.status_hint
+        field_provenance = {
+            "identity": provenance,
+            "date": provenance,
+            "status": provenance,
+        }
+        if kickoff is not None:
+            field_provenance["time"] = provenance
+        if parsed.venue:
+            field_provenance["stadium"] = provenance
+        if parsed.score:
+            field_provenance["score"] = provenance
         return Game(
             competition_key=self.COMPETITION_KEY,
             competition_name=self.COMPETITION_NAME,
@@ -143,6 +160,7 @@ class RFEFProvider:
             away_score=away_score,
             source_url=source_url,
             source_identifiers=self._identifiers(parsed, source_url=source_url),
+            provenance=field_provenance,
         )
 
     def _context_is_valid(self, html: str) -> bool:
@@ -189,7 +207,22 @@ class RFEFProvider:
             ) from exc
         if not isinstance(payload, list):
             raise SourceDataError("El baseline oficial local no és una llista")
-        games = tuple(Game.from_dict(item) for item in payload if isinstance(item, dict))
+        loaded_games: list[Game] = []
+        for item in payload:
+            if not isinstance(item, dict):
+                continue
+            game = Game.from_dict(item)
+            loaded_games.append(
+                replace(
+                    game,
+                    provenance={
+                        **game.provenance,
+                        "identity": "rfef_baseline",
+                        "date": "rfef_baseline",
+                    },
+                )
+            )
+        games = tuple(loaded_games)
         return self._validate_games(games, context="baseline local RFEF")
 
     def _fetch_baseline(self) -> tuple[Game, ...]:
@@ -208,7 +241,11 @@ class RFEFProvider:
                 raise SourceDataError("context de competició inesperat")
             parsed = parse_calendar_page(html)
             candidates = tuple(
-                self._game_from_parsed(item, source_url=self.calendar_url())
+                self._game_from_parsed(
+                    item,
+                    source_url=self.calendar_url(),
+                    provenance="rfef_baseline",
+                )
                 for item in parsed
                 if is_europa(item.home) or is_europa(item.away)
             )
@@ -222,14 +259,40 @@ class RFEFProvider:
     def _merge_operational(
         self, baseline: tuple[Game, ...], parsed: ParsedMatch
     ) -> tuple[Game, ...]:
-        operational = self._game_from_parsed(parsed, source_url=self.journey_url())
+        operational = self._game_from_parsed(
+            parsed,
+            source_url=self.journey_url(),
+            provenance="rfef_live",
+        )
         key = source_key(operational)
-        return tuple(
-            replace(
+
+        def update(game: Game) -> Game:
+            if source_key(game) != key:
+                return game
+            date_changed = operational.start_date != game.start_date
+            if operational.time_confirmed:
+                start_datetime = operational.start_datetime
+                time_confirmed = True
+            elif date_changed:
+                start_datetime = None
+                time_confirmed = False
+            else:
+                start_datetime = game.start_datetime
+                time_confirmed = game.time_confirmed
+            provenance = dict(game.provenance)
+            provenance["date"] = "rfef_live"
+            if operational.time_confirmed:
+                provenance["time"] = "rfef_live"
+            if operational.venue:
+                provenance["stadium"] = "rfef_live"
+            if operational.home_score is not None and operational.away_score is not None:
+                provenance["score"] = "rfef_live"
+            provenance["status"] = "rfef_live"
+            return replace(
                 game,
-                start_datetime=operational.start_datetime,
+                start_datetime=start_datetime,
                 start_date=operational.start_date,
-                time_confirmed=operational.time_confirmed,
+                time_confirmed=time_confirmed,
                 venue=operational.venue or game.venue,
                 home_score=operational.home_score,
                 away_score=operational.away_score,
@@ -237,9 +300,11 @@ class RFEFProvider:
                 source_game_id=operational.source_game_id or game.source_game_id,
                 source_url=operational.source_url,
                 source_identifiers={**game.source_identifiers, **operational.source_identifiers},
+                provenance=provenance,
             )
-            if source_key(game) == key
-            else game
+
+        return tuple(
+            update(game)
             for game in baseline
         )
 

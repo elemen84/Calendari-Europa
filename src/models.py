@@ -32,6 +32,8 @@ class Game:
     away_score: int | None = None
     source_url: str | None = None
     source_identifiers: dict[str, str] = field(default_factory=dict)
+    provenance: dict[str, str] = field(default_factory=dict)
+    secondary_candidate_time: datetime | None = None
 
     def __post_init__(self) -> None:
         if self.status not in MATCH_STATUSES:
@@ -40,6 +42,11 @@ class Game:
             raise ValueError("Un partit ha de tenir data o data i hora")
         if self.start_datetime is not None and self.start_datetime.tzinfo is None:
             raise ValueError("start_datetime ha de tenir timezone")
+        if (
+            self.secondary_candidate_time is not None
+            and self.secondary_candidate_time.tzinfo is None
+        ):
+            raise ValueError("secondary_candidate_time ha de tenir timezone")
         if self.time_confirmed and self.start_datetime is None:
             raise ValueError("Hora confirmada sense start_datetime")
         if not self.time_confirmed and self.start_date is None:
@@ -51,6 +58,8 @@ class Game:
             value["start_datetime"] = self.start_datetime.isoformat()
         if self.start_date is not None:
             value["start_date"] = self.start_date.isoformat()
+        if self.secondary_candidate_time is not None:
+            value["secondary_candidate_time"] = self.secondary_candidate_time.isoformat()
         return value
 
     @classmethod
@@ -62,10 +71,20 @@ class Game:
             datetime.fromisoformat(raw_datetime) if isinstance(raw_datetime, str) else None
         )
         payload["start_date"] = date.fromisoformat(raw_date) if isinstance(raw_date, str) else None
+        raw_candidate = payload.get("secondary_candidate_time")
+        payload["secondary_candidate_time"] = (
+            datetime.fromisoformat(raw_candidate) if isinstance(raw_candidate, str) else None
+        )
         identifiers = payload.get("source_identifiers")
         payload["source_identifiers"] = (
             {str(key): str(item) for key, item in identifiers.items()}
             if isinstance(identifiers, dict)
+            else {}
+        )
+        provenance = payload.get("provenance")
+        payload["provenance"] = (
+            {str(key): str(item) for key, item in provenance.items()}
+            if isinstance(provenance, dict)
             else {}
         )
         if "time_confirmed" not in payload:
@@ -81,3 +100,4 @@ class ProviderResult:
     source_note: str | None = None
     updated_rounds: frozenset[int] = frozenset()
     baseline_fallback: bool = False
+    warnings: tuple[str, ...] = ()
