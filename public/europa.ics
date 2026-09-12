@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CE Europa Calendar//CA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendari CE Europa 2026/2027
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:europa:20262027:1:441791bdb3802f0e@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Real Jaén CF · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 1\nLocal: CE Europa\nVisitant: Real Jaén CF\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:2:71dc85f0f23758af@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:AD Alcorcón - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 2\nLocal: AD Alcorcón\nVisitant: CE Europa\nE
+ stat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:3:dff08ed7fe06f402@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Hércules de Alicante CF · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 3\nLocal: CE Europa\nVisitant: Hércules de Al
+ icante CF\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:4:fed87921761a8b9e@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Real Murcia CF - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 4\nLocal: Real Murcia CF\nVisitant: CE Europa
+ \nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:5:e2b83cea7e43250f@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - CF Rayo Majadahonda · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 5\nLocal: CE Europa\nVisitant: CF Rayo Majadah
+ onda\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:6:5079bd96dca885c7@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:SD Huesca - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 6\nLocal: SD Huesca\nVisitant: CE Europa\nEsta
+ t: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:7:d4b02bf2e524d417@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Algeciras CF · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 7\nLocal: CE Europa\nVisitant: Algeciras CF\nE
+ stat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:8:32bd5efc9542222a@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:FC Cartagena - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 8\nLocal: FC Cartagena\nVisitant: CE Europa\nE
+ stat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:9:3d8df4a070c7135c@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Real Zaragoza · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 9\nLocal: CE Europa\nVisitant: Real Zaragoza\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:10:1a1feb7b5ef5799c@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:UD Ibiza - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 10\nLocal: UD Ibiza\nVisitant: CE Europa\nEsta
+ t: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:11:16c802c69fddbcd6@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Atlético Madrileño · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 11\nLocal: CE Europa\nVisitant: Atlético Madr
+ ileño\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:12:56779e799c190be0@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - UE Sant Andreu · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 12\nLocal: CE Europa\nVisitant: UE Sant Andreu
+ \nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:13:a9f951a81ae62533@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Águilas FC - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 13\nLocal: Águilas FC\nVisitant: CE Europa\nE
+ stat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:14:90429e4ab22530e1@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Villarreal CF "B" · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 14\nLocal: CE Europa\nVisitant: Villarreal CF
+  "B"\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:15:76438371b61b286e@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Antequera CF - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 15\nLocal: Antequera CF\nVisitant: CE Europa\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:16:641b8722600de5ca@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Juventud de Torremolinos CF - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 16\nLocal: Juventud de Torremolinos CF\nVisita
+ nt: CE Europa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.e
+ s
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:17:63ef2cd8207197b4@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Gimnàstic de Tarragona · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 17\nLocal: CE Europa\nVisitant: Gimnàstic de
+  Tarragona\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:18:37fb0bd7cad314fa@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Real Madrid Castilla - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 18\nLocal: Real Madrid Castilla\nVisitant: CE
+  Europa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:19:f906a97e2745a8da@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - CD Teruel · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 19\nLocal: CE Europa\nVisitant: CD Teruel\nEs
+ tat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:20:1da704066ce3ddbb@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Hércules de Alicante CF - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 20\nLocal: Hércules de Alicante CF\nVisitant:
+  CE Europa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:21:e470606bbf59855c@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CF Rayo Majadahonda - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 21\nLocal: CF Rayo Majadahonda\nVisitant: CE E
+ uropa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:22:8e9f0b5852e35091@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Real Murcia CF · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 22\nLocal: CE Europa\nVisitant: Real Murcia CF
+ \nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:23:d7dd61422d485f51@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Algeciras CF - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 23\nLocal: Algeciras CF\nVisitant: CE Europa\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:24:ca0ecd38e9db1e35@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Águilas FC · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 24\nLocal: CE Europa\nVisitant: Águilas FC\nE
+ stat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:25:5b3b429f0a2bc5ae@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Real Zaragoza - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 25\nLocal: Real Zaragoza\nVisitant: CE Europa
+ \nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:26:ad88a6baf8530aeb@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Juventud de Torremolinos CF · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 26\nLocal: CE Europa\nVisitant: Juventud de To
+ rremolinos CF\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.e
+ s
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:27:4a8f316815698cb7@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Atlético Madrileño - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 27\nLocal: Atlético Madrileño\nVisitant: CE
+  Europa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:28:f995251d36c5ac4f@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - FC Cartagena · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 28\nLocal: CE Europa\nVisitant: FC Cartagena\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:29:4d596758bb5ed1b5@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:UE Sant Andreu - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 29\nLocal: UE Sant Andreu\nVisitant: CE Europa
+ \nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:30:3f4b03914b5451e4@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - UD Ibiza · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 30\nLocal: CE Europa\nVisitant: UD Ibiza\nEsta
+ t: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:31:0bdd74350e95bce1@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - SD Huesca · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 31\nLocal: CE Europa\nVisitant: SD Huesca\nEs
+ tat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:32:603188ee5c66602e@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Gimnàstic de Tarragona - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 32\nLocal: Gimnàstic de Tarragona\nVisitant:
+  CE Europa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:33:75964b8b14072dc2@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Villarreal CF "B" - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 33\nLocal: Villarreal CF "B"\nVisitant: CE Eur
+ opa\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:34:7afa4c684aa9bfbf@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - AD Alcorcón · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 34\nLocal: CE Europa\nVisitant: AD Alcorcón\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:35:e71f28714fa6fbac@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CD Teruel - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 35\nLocal: CD Teruel\nVisitant: CE Europa\nEs
+ tat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:36:4ed8741f9fa698f5@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Antequera CF · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 36\nLocal: CE Europa\nVisitant: Antequera CF\n
+ Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:37:5c7666445ecbc891@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:Real Jaén CF - CE Europa · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 37\nLocal: Real Jaén CF\nVisitant: CE Europa
+ \nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+END:VEVENT
+BEGIN:VEVENT
+UID:europa:20262027:38:980110f517ca130c@europa-calendar
+DTSTAMP:20260101T120000Z
+SUMMARY:CE Europa - Real Madrid Castilla · Horari per confirmar
+DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
+ eració · Grup 2\nJornada: 38\nLocal: CE Europa\nVisitant: Real Madrid Ca
+ stilla\nEstat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+END:VEVENT
+END:VCALENDAR

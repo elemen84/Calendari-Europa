@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CE Europa">
+  <rect width="64" height="64" fill="#09080f"/>
+  <path d="M15 12h34v9H25v8h20v8H25v9h24v9H15V12Z" fill="#c9a7e3"/>
+  <path d="M15 12h34v5H15z" fill="#eadcf3"/>
+</svg>

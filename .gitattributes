@@ -1,0 +1,2 @@
+# iCalendar requires CRLF line endings; do not normalize generated feeds.
+*.ics -text
