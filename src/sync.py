@@ -19,6 +19,7 @@ class CalendarBuild:
     descriptions: dict[str, str]
     provider_results: dict[str, ProviderResult]
     cached_games: dict[str, tuple[Game, ...]]
+    source_healthy: bool = True
 
 
 def should_sync(state: dict[str, Any], now: datetime, *, force: bool = False) -> bool:
@@ -147,12 +148,14 @@ def build_calendar(
     descriptions: dict[str, str] = {}
     cached_games: dict[str, tuple[Game, ...]] = {}
     finalized: dict[str, ProviderResult] = {}
+    source_healthy = True
     for competition_key, (_provider, fetched) in providers.items():
         cache_file = _cache_path(cache_root, competition_key, config.label)
         cached = _load_cached_games(cache_file)
         current = tuple(fetched.games)
         cached_valid = _basic_valid(cached, season=config.label)
         current_valid = _basic_valid(current, season=config.label)
+        source_healthy = source_healthy and current_valid and not fetched.errors
         if current_valid:
             if cached_valid:
                 selected = _merge_fallback(
@@ -193,7 +196,7 @@ def build_calendar(
     games = tuple(sorted(unique.values(), key=lambda game: source_key(game)))
     if not _basic_valid(games, season=config.label):
         raise RuntimeError("El calendari final no conté exactament les 38 jornades úniques")
-    return CalendarBuild(games, descriptions, finalized, cached_games)
+    return CalendarBuild(games, descriptions, finalized, cached_games, source_healthy)
 
 
 def persist_build(
@@ -222,7 +225,6 @@ def persist_build(
         or changed
     )
     counts = {key: len(result.games) for key, result in build.provider_results.items()}
-    source_healthy = all(not result.errors for result in build.provider_results.values())
-    if source_healthy and (changed or not state_path.is_file()):
+    if build.source_healthy and (changed or not state_path.is_file()):
         save_sync_state(state_path, now=now, counts=counts)
     return counts

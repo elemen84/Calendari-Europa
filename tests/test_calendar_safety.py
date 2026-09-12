@@ -235,6 +235,30 @@ def test_failed_provider_does_not_advance_sync_state(tmp_path) -> None:
     assert not state_path.exists()
 
 
+def test_empty_provider_response_does_not_advance_sync_state(tmp_path) -> None:
+    cache_root = tmp_path / "cache"
+    cache_root.mkdir()
+    cache_root.joinpath("primera-federacion-2026-2027.json").write_text(
+        json.dumps([item.to_dict() for item in full_games()]), encoding="utf-8"
+    )
+    build = build_calendar(
+        config(),
+        {"primera-federacion": (object(), ProviderResult("primera-federacion", ()))},
+        cache_root=cache_root,
+        now=datetime.now().astimezone(),
+    )
+    state_path = tmp_path / "data" / "sync-state.json"
+    persist_build(
+        build,
+        config=config(),
+        cache_root=cache_root,
+        ics_path=tmp_path / "public" / "europa.ics",
+        state_path=state_path,
+        now=datetime.now().astimezone(),
+    )
+    assert not state_path.exists()
+
+
 def test_ics_contains_exactly_one_event_per_valid_round() -> None:
     rendered = render_ics(full_games(), {})
     assert rendered.count("BEGIN:VEVENT") == 38
