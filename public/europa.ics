@@ -10,9 +10,10 @@ UID:europa:20262027:1:441791bdb3802f0e@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:CE Europa - Real Jaén CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 1\nLocal: C
- E Europa\nVisitant: Real Jaén CF\nEstat: Finalitzat\nResultat: 0-0\n\nFon
- t: RFEF Marcadores · marcadores.rfef.es
+ E Europa\nVisitant: Real Jaén CF\nEstat: Finalitzat\nResultat: 0-0\nEstad
+ i: Estadio Can Dragó\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Can Dragó
 DTSTART;TZID=Europe/Madrid:20260830T191500
 DTEND;TZID=Europe/Madrid:20260830T213000
 END:VEVENT
@@ -21,9 +22,11 @@ UID:europa:20262027:2:71dc85f0f23758af@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:AD Alcorcón - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 2\nLocal: A
- D Alcorcón\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 0-0\n\nFon
- t: RFEF Marcadores · marcadores.rfef.es
+ D Alcorcón\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 0-0\nEstadi
+ : Estadio Municipal Santo Domingo\n\nFont: RFEF Marcadores · marcadores.r
+ fef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Municipal Santo Domingo
 DTSTART;TZID=Europe/Madrid:20260906T181500
 DTEND;TZID=Europe/Madrid:20260906T203000
 END:VEVENT
@@ -33,8 +36,10 @@ DTSTAMP:20260101T120000Z
 SUMMARY:CE Europa - Hércules de Alicante CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 3\nLocal: C
  E Europa\nVisitant: Hércules de Alicante CF\nEstat: Finalitzat\nResultat:
-  1-1\n\nFont: RFEF Marcadores · marcadores.rfef.es
+  1-1\nEstadi: Estadio Can Dragó\n\nFont: RFEF Marcadores · marcadores.rf
+ ef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Can Dragó
 DTSTART;TZID=Europe/Madrid:20260912T163000
 DTEND;TZID=Europe/Madrid:20260912T184500
 END:VEVENT
@@ -43,9 +48,10 @@ UID:europa:20262027:4:fed87921761a8b9e@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:Real Murcia CF - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 4\nLocal: R
- eal Murcia CF\nVisitant: CE Europa\nEstat: Partit\n\nFont: RFEF Marcadores
-  · marcadores.rfef.es
+ eal Murcia CF\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadio Nueva C
+ ondomina\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Nueva Condomina
 DTSTART;TZID=Europe/Madrid:20260919T163000
 DTEND;TZID=Europe/Madrid:20260919T184500
 END:VEVENT
@@ -54,9 +60,10 @@ UID:europa:20262027:5:e2b83cea7e43250f@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:CE Europa - CF Rayo Majadahonda
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 5\nLocal: C
- E Europa\nVisitant: CF Rayo Majadahonda\nEstat: Partit\n\nFont: RFEF Marca
- dores · marcadores.rfef.es
+ E Europa\nVisitant: CF Rayo Majadahonda\nEstat: Partit\nEstadi: Estadio Ca
+ n Dragó\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Can Dragó
 DTSTART;TZID=Europe/Madrid:20260927T160000
 DTEND;TZID=Europe/Madrid:20260927T181500
 END:VEVENT
@@ -65,9 +72,10 @@ UID:europa:20262027:6:5079bd96dca885c7@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:SD Huesca - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 6\nLocal: S
- D Huesca\nVisitant: CE Europa\nEstat: Partit\n\nFont: RFEF Marcadores · m
- arcadores.rfef.es
+ D Huesca\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadio El Alcoraz\n
+ \nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio El Alcoraz
 DTSTART;TZID=Europe/Madrid:20261004T141500
 DTEND;TZID=Europe/Madrid:20261004T163000
 END:VEVENT
@@ -76,9 +84,10 @@ UID:europa:20262027:7:d4b02bf2e524d417@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:CE Europa - Algeciras CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 7\nLocal: C
- E Europa\nVisitant: Algeciras CF\nEstat: Partit\n\nFont: RFEF Marcadores
-  · marcadores.rfef.es
+ E Europa\nVisitant: Algeciras CF\nEstat: Partit\nEstadi: Estadio Can Drag
+ ó\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Can Dragó
 DTSTART;TZID=Europe/Madrid:20261011T181500
 DTEND;TZID=Europe/Madrid:20261011T203000
 END:VEVENT
@@ -89,8 +98,10 @@ SUMMARY:FC Cartagena - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 18/10/2026 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 8\nLocal: FC Cartagena\nVisitant: CE Europa\nEstat: P
- artit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+ artit\nEstadi: Estadio Municipal Cartagonova\n\nFont: RFEF Marcadores · m
+ arcadores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Municipal Cartagonova
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 END:VEVENT
@@ -101,8 +112,10 @@ SUMMARY:CE Europa - Real Zaragoza · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 25/10/2026 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 9\nLocal: CE Europa\nVisitant: Real Zaragoza\nEstat:
-  Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+  Partit\nEstadi: Estadio Can Dragó\n\nFont: RFEF Marcadores · marcadores
+ .rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadio Can Dragó
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 END:VEVENT
@@ -113,8 +126,10 @@ SUMMARY:UD Ibiza - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 01/11/2026 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 10\nLocal: UD Ibiza\nVisitant: CE Europa\nEstat: Par
- tit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+ tit\nEstadi: Estadi Municipal Can Misses\n\nFont: RFEF Marcadores · marca
+ dores.rfef.es
 STATUS:CONFIRMED
+LOCATION:Estadi Municipal Can Misses
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 END:VEVENT
@@ -266,9 +281,10 @@ BEGIN:VEVENT
 UID:europa:20262027:23:d7dd61422d485f51@europa-calendar
 DTSTAMP:20260101T120000Z
 SUMMARY:Algeciras CF - CE Europa · Horari per confirmar
-DESCRIPTION:Hora del partit encara per confirmar.\nCompetició: Primera Fed
- eració · Grup 2\nJornada: 23\nLocal: Algeciras CF\nVisitant: CE Europa\n
- Estat: Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
+DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
+ mada (font secundària): 06/02/2027 17:00\nCompetició: Primera Federació
+  · Grup 2\nJornada: 23\nLocal: Algeciras CF\nVisitant: CE Europa\nEstat:
+  Partit\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
