@@ -94,16 +94,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:8:32bd5efc9542222a@europa-calendar
 DTSTAMP:20260101T120000Z
-SUMMARY:FC Cartagena - CE Europa · Horari per confirmar
-DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
- mada (font secundària): 18/10/2026 17:00\nCompetició: Primera Federació
-  · Grup 2\nJornada: 8\nLocal: FC Cartagena\nVisitant: CE Europa\nEstat: P
- artit\nEstadi: Estadio Municipal Cartagonova\n\nFont: RFEF Marcadores · m
- arcadores.rfef.es
+SUMMARY:FC Cartagena - CE Europa
+DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 8\nLocal: F
+ C Cartagena\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadio Municipal
+  Cartagonova\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Municipal Cartagonova
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;TZID=Europe/Madrid:20261016T190000
+DTEND;TZID=Europe/Madrid:20261016T211500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:9:3d8df4a070c7135c@europa-calendar

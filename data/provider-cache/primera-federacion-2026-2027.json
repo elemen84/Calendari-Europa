@@ -403,10 +403,10 @@
     "provenance": {
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
-      "score": "rfef_live",
+      "score": "cache",
       "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "rfef_live",
+      "status": "cache",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
@@ -1333,8 +1333,9 @@
     "round_number": 5,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695791",
     "source_identifiers": {
+      "cod_acta": "70695791",
       "competition_id": "33836088",
       "group_id": "33836090",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-5-de-primera-federacion-temporada-202627",
@@ -1453,14 +1454,15 @@
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
-      "secondary_candidate_time": "secondary",
+      "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "rfef_live"
+      "status": "rfef_live",
+      "time": "rfef_live"
     },
     "round_name": null,
     "round_number": 8,
     "season": "2026/2027",
-    "secondary_candidate_time": "2026-10-18T17:00:00+02:00",
+    "secondary_candidate_time": null,
     "source_game_id": null,
     "source_identifiers": {
       "competition_id": "33836088",
@@ -1476,10 +1478,10 @@
       "team_id": "206320"
     },
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
-    "start_date": "2026-10-18",
-    "start_datetime": null,
+    "start_date": "2026-10-16",
+    "start_datetime": "2026-10-16T19:00:00+02:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Estadio Municipal Cartagonova"
   },
   {
