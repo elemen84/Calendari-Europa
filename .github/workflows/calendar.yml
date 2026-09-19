@@ -17,6 +17,8 @@ on:
       - "public/app.js"
       - "public/favicon.svg"
       - "public/assets/**"
+      - "public/standings/**"
+      - "data/standings/**"
 
 permissions:
   contents: write
@@ -61,6 +63,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/europa.ics data/sync-state.json data/provider-cache
+          if [ -d public/standings ]; then git add public/standings; fi
+          if [ -d data/standings ]; then git add data/standings; fi
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else

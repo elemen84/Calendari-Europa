@@ -32,6 +32,17 @@ def test_parser_returns_twenty_structured_rows_and_europa() -> None:
     assert europa.goal_difference == europa.goals_for - europa.goals_against
 
 
+def test_parser_handles_rfef_grouped_home_away_and_goals_headers() -> None:
+    rows = parse_rfef_standings_html(fixture("standings-rfef-detailed.html"))
+    europa = next(row for row in rows if row.team == "CE Europa")
+    assert len(rows) == 20
+    assert europa.played == 38
+    assert europa.won == 13
+    assert europa.drawn == 11
+    assert europa.lost == 14
+    assert europa.goal_difference == europa.goals_for - europa.goals_against
+
+
 def test_provider_uses_official_standings_endpoint_and_expected_ids() -> None:
     client = LocalClient(fixture("standings.html"))
     provider = RFEFStandingsProvider(config(), client)

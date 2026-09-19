@@ -138,6 +138,48 @@ def _data_rows(table: HtmlNode, header: dict[str, int]) -> list[StandingRow]:
     return rows
 
 
+def _parse_rfef_detailed_table(table: HtmlNode) -> tuple[StandingRow, ...]:
+    headers = {_normalise_label(cell.text()) for cell in table.find_all("th")}
+    if not {"partidos casa", "partidos fuera", "goles"}.issubset(headers):
+        return ()
+
+    rows: list[StandingRow] = []
+    for row in table.find_all("tr"):
+        cells = row.find_all("td")
+        values = [cell.text().replace("\xa0", " ").strip() for cell in cells]
+        if len(values) < 14:
+            continue
+        position_index: int | None = None
+        for index, value in enumerate(values[:3]):
+            if value.isdigit() and 1 <= int(value) <= 20:
+                position_index = index
+                break
+        if position_index is None or position_index + 12 >= len(values):
+            continue
+        team_index = position_index + 1
+        stats = values[team_index + 1 : team_index + 12]
+        numbers = [_integer(value, field="classificació") for value in stats]
+        points = numbers[0]
+        home_played, home_won, home_drawn, home_lost = numbers[1:5]
+        away_played, away_won, away_drawn, away_lost = numbers[5:9]
+        goals_for, goals_against = numbers[9:11]
+        rows.append(
+            StandingRow(
+                position=_integer(values[position_index], field="position"),
+                team=values[team_index],
+                played=home_played + away_played,
+                points=points,
+                won=home_won + away_won,
+                drawn=home_drawn + away_drawn,
+                lost=home_lost + away_lost,
+                goals_for=goals_for,
+                goals_against=goals_against,
+                goal_difference=goals_for - goals_against,
+            )
+        )
+    return tuple(rows)
+
+
 def validate_standings(
     rows: tuple[StandingRow, ...], *, expected_teams: int = 20
 ) -> tuple[StandingRow, ...]:
@@ -164,6 +206,9 @@ def parse_rfef_standings_html(html: str) -> tuple[StandingRow, ...]:
     root = parse_html(html)
     candidates: list[tuple[int, tuple[StandingRow, ...]]] = []
     for table in root.find_all("table"):
+        detailed_rows = _parse_rfef_detailed_table(table)
+        if detailed_rows:
+            candidates.append((len(detailed_rows), detailed_rows))
         for header in _header_maps(table):
             required = {
                 "position",

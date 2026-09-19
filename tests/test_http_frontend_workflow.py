@@ -91,6 +91,9 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "workflow_dispatch" in workflow and "force" in workflow
     assert "cancel-in-progress: true" in workflow
     assert "public/europa.ics" in workflow
+    assert "git add public/standings" in workflow
+    assert "git add data/standings" in workflow
+    assert "path: public" in workflow
     assert "python -m pytest" in workflow
     assert "scripts/sync_calendar.py" in workflow
     assert "git diff --cached --quiet" in workflow

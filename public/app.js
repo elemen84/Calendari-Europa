@@ -2,7 +2,7 @@
   // Set this single value after creating the GitHub repository if an explicit URL is preferred.
   const PUBLIC_FEED_URL_OVERRIDE = "";
   const FEED_PATH = "europa.ics";
-  const STANDINGS_PATH = "standings/primera-federacion-grupo-2-2026-2027.json";
+  const STANDINGS_PATH = "./standings/primera-federacion-grupo-2-2026-2027.json";
 
   const feedUrl = () => {
     if (PUBLIC_FEED_URL_OVERRIDE) return PUBLIC_FEED_URL_OVERRIDE;
