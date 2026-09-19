@@ -84,7 +84,7 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     workflow = (ROOT / ".github" / "workflows" / "calendar.yml").read_text(encoding="utf-8")
     assert "Calendari CE Europa 2026/27" in html
     assert "Primera Federació · Grup 2" in html
-    assert "./assets/europa-crest.png" in html
+    assert "./assets/Europa.png" in html
     assert "europa.ics" in app
     assert "new URL(FEED_PATH, window.location.href)" in app
     assert 'cron: "15 4 * * *"' in workflow
