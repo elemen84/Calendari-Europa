@@ -96,3 +96,17 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "git diff --cached --quiet" in workflow
     assert "barca" not in workflow.lower()
     assert (ROOT / "public" / ".nojekyll").is_file()
+
+
+def test_frontend_classification_has_required_columns_and_europa_highlight() -> None:
+    html = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+    app = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "public" / "styles.css").read_text(encoding="utf-8")
+    assert 'id="classificacio"' in html
+    assert 'id="standings-body"' in html
+    for column in ("Pos", "Equip", "PJ", "G", "E", "P", "GF", "GC", "DG", "Pts"):
+        assert f">{column}</th>" in html
+    assert "standings/primera-federacion-grupo-2-2026-2027.json" in app
+    assert "standings-row-europa" in app and "standings-row-europa" in styles
+    assert "standings-table-wrap" in styles
+    assert "@media (max-width: 640px)" in styles

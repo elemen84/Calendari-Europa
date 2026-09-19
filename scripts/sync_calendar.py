@@ -31,6 +31,8 @@ def main() -> int:
         RequestsOfficialScheduleClient,
         RFEFOfficialScheduleProvider,
     )
+    from src.providers.rfef_standings import RFEFStandingsProvider
+    from src.standings import load_snapshot, save_snapshot, snapshot_path
     from src.sync import (
         apply_official_schedule,
         build_calendar,
@@ -52,7 +54,9 @@ def main() -> int:
                 f"{SYNC_INTERVAL_HOURS} hores des de l'últim sync correcte."
             )
             return 0
-        provider = RFEFProvider(config, RequestsSessionClient())
+        rfef_client = RequestsSessionClient()
+        provider = RFEFProvider(config, rfef_client)
+        standings_provider = RFEFStandingsProvider(config, rfef_client)
         try:
             rfef_fetched = provider.fetch()
         except (OfficialHttpError, SourceDataError, RuntimeError, ValueError) as exc:
@@ -62,6 +66,22 @@ def main() -> int:
                 errors=(f"RFEF fetch fallit: {exc}",),
                 source_note="RFEF no disponible; baseline/cache protegit; secondary diagnòstic.",
             )
+        standings_rows = None
+        standings_live = False
+        standings_path = snapshot_path(ROOT / "data")
+        try:
+            standings_rows = standings_provider.fetch()
+            standings_live = True
+            print(f"Classificació RFEF detectada: {len(standings_rows)} equips")
+        except (OfficialHttpError, SourceDataError, RuntimeError, ValueError) as exc:
+            standings_rows = load_snapshot(standings_path)
+            print(f"Avís classificació RFEF: {exc}")
+            if standings_rows is not None:
+                print("  - Es conserva l'últim snapshot vàlid de classificació.")
+            else:
+                print(
+                    "  - No hi ha cap snapshot vàlid; la web mostrarà classificació no disponible."
+                )
         official_schedule = RFEFOfficialScheduleProvider(
             config,
             RequestsOfficialScheduleClient(),
@@ -101,6 +121,22 @@ def main() -> int:
             state_path=state_path,
             now=now,
         )
+        if standings_live and standings_rows is not None:
+            try:
+                save_snapshot(
+                    standings_path,
+                    standings_rows,
+                    source_url=standings_provider.standings_url,
+                    retrieved_at=now,
+                )
+                save_snapshot(
+                    snapshot_path(ROOT / "public"),
+                    standings_rows,
+                    source_url=standings_provider.standings_url,
+                    retrieved_at=now,
+                )
+            except OSError as exc:
+                print(f"Avís persistint classificació RFEF: {exc}")
         print("Sync correcte: public/europa.ics i dades persistents actualitzades si calia.")
         return 0
     except (OfficialHttpError, SourceDataError, RuntimeError, ValueError) as exc:
