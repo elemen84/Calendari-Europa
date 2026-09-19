@@ -8,7 +8,7 @@ import pytest
 
 from src.calendar.formatting import description_for_game
 from src.calendar.ics import render_ics
-from src.models import Game, ProviderResult
+from src.models import Game, ProviderResult, StandingRow
 from src.normalize import event_uid, source_key
 from src.providers.rfef import RFEFProvider
 from src.sync import build_calendar, persist_build, should_sync
@@ -105,6 +105,45 @@ def test_result_updates_same_event_and_duplicates_render_once() -> None:
     rendered_after = render_ics([after], {source_key(after): description_for_game(after)})
     assert "Resultat: 3-0" in rendered_after
     assert event_uid(before) in rendered_after
+
+
+def test_ics_description_contains_current_standings_for_mobile_calendars() -> None:
+    item = game()
+    rows = (
+        StandingRow(
+            position=1,
+            team="Real Jaén CF",
+            played=4,
+            points=10,
+            won=3,
+            drawn=1,
+            lost=0,
+            goals_for=9,
+            goals_against=4,
+            goal_difference=5,
+        ),
+        StandingRow(
+            position=18,
+            team="CE Europa",
+            played=4,
+            points=1,
+            won=0,
+            drawn=1,
+            lost=3,
+            goals_for=2,
+            goals_against=7,
+            goal_difference=-5,
+        ),
+    )
+    rendered = render_ics(
+        [item],
+        {source_key(item): description_for_game(item, rows)},
+    )
+    assert "Classificació" in rendered
+    assert "1. Real Jaén CF — 10 pts" in rendered
+    assert "18. CE Europa — 1 pts" in rendered
+    assert "4 PJ · 0 G" in rendered
+    assert "3 P · -5 DG" in rendered
 
 
 def test_ics_generation_is_deterministic_and_escaped() -> None:

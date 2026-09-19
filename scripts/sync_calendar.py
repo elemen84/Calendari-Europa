@@ -96,6 +96,7 @@ def main() -> int:
             {"primera-federacion": (provider, fetched)},
             cache_root=ROOT / "data" / "provider-cache",
             now=now,
+            standings=standings_rows,
         )
         print(f"Partits detectats: Primera Federació={len(build.games)}")
         if fetched.errors:

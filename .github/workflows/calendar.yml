@@ -17,6 +17,7 @@ on:
       - "public/app.js"
       - "public/favicon.svg"
       - "public/assets/**"
+      - "public/europa.ics"
       - "public/standings/**"
       - "data/standings/**"
 

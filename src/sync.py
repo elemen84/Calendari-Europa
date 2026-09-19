@@ -9,7 +9,7 @@ from typing import Any
 from src.calendar.formatting import description_for_game
 from src.calendar.ics import write_ics
 from src.config import SYNC_INTERVAL_HOURS, SeasonConfig
-from src.models import Game, ProviderResult
+from src.models import Game, ProviderResult, StandingRow
 from src.normalize import is_europa, normalize_text, source_key
 from src.providers.common import madrid_datetime
 from src.providers.rfef_schedule import OfficialScheduleResult
@@ -446,6 +446,7 @@ def build_calendar(
     *,
     cache_root: Path,
     now: datetime,
+    standings: tuple[StandingRow, ...] | None = None,
 ) -> CalendarBuild:
     if set(providers) != {"primera-federacion"}:
         raise RuntimeError("El projecte Europa només pot contenir Primera Federació regular")
@@ -496,7 +497,7 @@ def build_calendar(
         )
         for game in selected:
             key = source_key(game)
-            descriptions[key] = description_for_game(game)
+            descriptions[key] = description_for_game(game, standings)
             all_games.append(game)
     unique = {source_key(game): game for game in all_games}
     games = tuple(sorted(unique.values(), key=lambda game: source_key(game)))

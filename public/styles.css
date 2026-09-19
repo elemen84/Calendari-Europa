@@ -105,7 +105,6 @@ button { font: inherit; }
 
 .hero,
 .competition-section,
-.standings-section,
 .how-section {
   width: min(calc(100% - 64px), var(--max-width));
   margin: 0 auto;
@@ -294,98 +293,6 @@ h1 {
 
 .competition-card p { margin: 0; color: var(--muted); font-size: 14px; }
 
-.standings-section {
-  padding: 0 0 106px;
-}
-
-.standings-status {
-  margin: 0;
-  border: 1px solid var(--line);
-  padding: 18px 20px;
-  color: var(--muted);
-  background: var(--panel);
-}
-
-.standings-table-wrap {
-  overflow-x: auto;
-  border: 1px solid var(--line);
-  background: var(--panel);
-}
-
-.standings-table {
-  width: 100%;
-  min-width: 760px;
-  border-collapse: collapse;
-  font-size: 13px;
-}
-
-.standings-table th {
-  border-bottom: 1px solid var(--line);
-  padding: 15px 14px;
-  color: var(--blau-light);
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: .14em;
-  text-align: right;
-  text-transform: uppercase;
-}
-
-.standings-table th:first-child,
-.standings-table td:first-child { padding-left: 20px; }
-
-.standings-table th:last-child,
-.standings-table td:last-child { padding-right: 20px; }
-
-.standings-table .team-column,
-.standings-table td:nth-child(2) { text-align: left; }
-
-.standings-table td {
-  border-top: 1px solid rgba(38, 50, 74, .72);
-  padding: 14px;
-  color: var(--muted);
-  text-align: right;
-  white-space: nowrap;
-}
-
-.standings-table tbody tr { transition: background-color .2s ease; }
-.standings-table tbody tr:hover { background: var(--panel-strong); }
-
-.standings-table td:first-child {
-  color: var(--subtle);
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.standings-table td:nth-child(2) {
-  color: var(--ink);
-  font-weight: 650;
-}
-
-.standings-table td:last-child {
-  color: var(--ink);
-  font-weight: 800;
-}
-
-.standings-table .standings-row-europa {
-  background: rgba(111, 61, 145, .18);
-  box-shadow: inset 3px 0 0 var(--grana);
-}
-
-.standings-table .standings-row-europa td:first-child,
-.standings-table .standings-row-europa td:nth-child(2) {
-  color: var(--grana-bright);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-
 .how-section {
   display: grid;
   grid-template-columns: .8fr 1.2fr;
@@ -550,7 +457,7 @@ h1 {
 }
 
 @media (max-width: 640px) {
-  .site-header, .site-footer, .hero, .competition-section, .standings-section, .how-section {
+  .site-header, .site-footer, .hero, .competition-section, .how-section {
     width: min(calc(100% - 36px), var(--max-width));
   }
 
@@ -577,7 +484,6 @@ h1 {
   .hero-aside p span { font-size: 10px; }
 
   .competition-section { padding: 76px 0 82px; }
-  .standings-section { padding: 0 0 82px; }
   .competition-grid { grid-template-columns: 1fr; }
   .competition-card { min-height: 174px; }
   .steps-grid { grid-template-columns: 1fr; gap: 28px; }

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from src.models import Game
+from src.models import Game, StandingRow
 
 
 def _status_label(status: str) -> str:
@@ -26,7 +26,41 @@ def title_for_game(game: Game) -> str:
     return title
 
 
-def description_for_game(game: Game, *, updated_at: datetime | None = None) -> str:
+def _stat(value: int | None) -> str:
+    return "-" if value is None else str(value)
+
+
+def _goal_difference(value: int | None) -> str:
+    return "-" if value is None else f"{value:+d}"
+
+
+def _standings_entry(row: StandingRow) -> list[str]:
+    return [
+        f"{row.position}. {row.team} — {row.points} pts",
+        (
+            f"   {row.played} PJ · {_stat(row.won)} G · {_stat(row.drawn)} E · "
+            f"{_stat(row.lost)} P · {_goal_difference(row.goal_difference)} DG"
+        ),
+    ]
+
+
+def _standings_text(rows: tuple[StandingRow, ...] | None) -> list[str]:
+    if not rows:
+        return ["Classificació encara no disponible"]
+    lines = ["Classificació"]
+    for index, row in enumerate(rows):
+        if index > 0:
+            lines.append("")
+        lines.extend(_standings_entry(row))
+    return lines
+
+
+def description_for_game(
+    game: Game,
+    standings: tuple[StandingRow, ...] | None = None,
+    *,
+    updated_at: datetime | None = None,
+) -> str:
     lines: list[str] = []
     if not game.time_confirmed:
         lines.append("Hora del partit encara per confirmar.")
@@ -48,6 +82,7 @@ def description_for_game(game: Game, *, updated_at: datetime | None = None) -> s
         lines.append(f"Resultat: {game.home_score}-{game.away_score}")
     if game.venue:
         lines.append(f"Estadi: {game.venue}")
+    lines.extend(["", *_standings_text(standings)])
     if updated_at is not None:
         lines.extend(
             ["", f"Actualitzat: {updated_at.strftime('%d/%m/%Y %H:%M')} ({updated_at.tzname()})"]

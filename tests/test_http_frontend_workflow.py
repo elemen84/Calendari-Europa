@@ -101,15 +101,11 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert (ROOT / "public" / ".nojekyll").is_file()
 
 
-def test_frontend_classification_has_required_columns_and_europa_highlight() -> None:
+def test_classification_is_published_in_the_mobile_calendar_not_the_landing_page() -> None:
     html = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
     app = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
-    styles = (ROOT / "public" / "styles.css").read_text(encoding="utf-8")
-    assert 'id="classificacio"' in html
-    assert 'id="standings-body"' in html
-    for column in ("Pos", "Equip", "PJ", "G", "E", "P", "GF", "GC", "DG", "Pts"):
-        assert f">{column}</th>" in html
-    assert "standings/primera-federacion-grupo-2-2026-2027.json" in app
-    assert "standings-row-europa" in app and "standings-row-europa" in styles
-    assert "standings-table-wrap" in styles
-    assert "@media (max-width: 640px)" in styles
+    ics = (ROOT / "public" / "europa.ics").read_text(encoding="utf-8")
+    assert 'id="classificacio"' not in html
+    assert "STANDINGS_PATH" not in app
+    assert ics.count("Classificació\\n") == 38
+    assert ics.count("CE Europa — 1 pts") > 0
