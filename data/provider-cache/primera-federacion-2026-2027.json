@@ -1269,16 +1269,17 @@
   },
   {
     "away": "CE Europa",
-    "away_score": null,
+    "away_score": 1,
     "competition_key": "primera-federacion",
     "competition_name": "Primera Federació · Grup 2",
     "home": "Real Murcia CF",
-    "home_score": null,
+    "home_score": 2,
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
+      "score": "rfef_live",
       "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
       "status": "rfef_live",
@@ -1308,7 +1309,7 @@
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-09-19",
     "start_datetime": "2026-09-19T16:30:00+02:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Estadio Nueva Condomina"
   },
