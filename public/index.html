@@ -12,10 +12,10 @@
   <body>
     <header class="site-header">
       <a class="brand" href="./" aria-label="Inici — CE Europa">
-        <img class="brand-shield" src="./assets/europa-crest.png" alt="" width="44" height="40" />
+        <img class="brand-shield" src="./assets/Europa.png" alt="" width="44" height="40" />
         <span class="wordmark-copy"><strong>CE EUROPA</strong><small>Calendari no oficial de la temporada</small></span>
       </a>
-      <a class="header-link" href="#competicions">Competició</a>
+      <a class="header-link" href="#classificacio">Classificació</a>
     </header>
 
     <main>
@@ -28,7 +28,7 @@
           <button class="button button-primary" type="button" data-open-subscription>SUBSCRIU-TE AL CALENDARI <span aria-hidden="true">↗</span></button>
         </div>
         <div class="hero-aside" aria-label="Calendari del CE Europa">
-          <div class="hero-shield-frame"><img class="hero-shield" src="./assets/europa-crest.png" alt="Escut del CE Europa" width="190" height="174" /></div>
+          <div class="hero-shield-frame"><img class="hero-shield" src="./assets/Europa.png" alt="Escut del CE Europa" width="190" height="174" /></div>
           <p><span>CE EUROPA</span><br />Primera Federació · Grup 2</p>
         </div>
       </section>
@@ -41,10 +41,24 @@
         </div>
         <div class="competition-grid">
           <article class="competition-card">
-            <img class="competition-logo" src="./assets/europa-crest.png" alt="" aria-hidden="true" width="42" height="42" />
+            <img class="competition-logo" src="./assets/Europa.png" alt="" aria-hidden="true" width="42" height="42" />
             <h3>Primera Federació</h3>
             <p>Grup 2 · 38 partits de fase regular.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="competition-section standings-section" id="classificacio" aria-labelledby="standings-title">
+        <div class="section-heading">
+          <p class="eyebrow">SITUACIÓ ACTUAL</p>
+          <h2 id="standings-title">Classificació</h2>
+          <p id="standings-status" role="status" aria-live="polite">Carregant la classificació oficial…</p>
+        </div>
+        <div class="standings-table-wrap">
+          <table class="standings-table" id="standings-table">
+            <thead><tr><th scope="col">Pos.</th><th scope="col">Equip</th><th scope="col">PJ</th><th scope="col">G</th><th scope="col">E</th><th scope="col">P</th><th scope="col">DG</th><th scope="col">Pts</th></tr></thead>
+            <tbody id="standings-body"></tbody>
+          </table>
         </div>
       </section>
 
@@ -66,11 +80,11 @@
         <p class="eyebrow">AFEGEIX EL CALENDARI</p>
         <h2 id="modal-title">Subscriu-te una sola vegada</h2>
         <p class="modal-intro">Feed HTTPS: els horaris, ajornaments i resultats es mantindran actualitzats automàticament. Actualització automàtica cada 24 hores.</p>
-        <div class="feed-box"><span class="feed-label">ENLLAÇ DEL CALENDARI</span><code id="feed-url">Calculant l'enllaç…</code><button class="button button-secondary" type="button" id="copy-feed">COPIA L'ENLLAÇ</button><p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p></div>
         <div class="subscription-options">
-          <article class="subscription-option"><span class="option-kicker">01 · GOOGLE</span><h3>Google Calendar</h3><ol><li>Des d'un ordinador, obre Google Calendar.</li><li>Ves a Altres calendaris → + → Des d'URL.</li><li>Enganxa aquest enllaç.</li><li>Confirma l'addició del calendari.</li></ol><details class="android-help"><summary>Si no apareix a Android</summary><p>Obre Google Calendar al mòbil → Configuració → selecciona el teu compte de Google → Mostra'n més → <span id="android-calendar-name">Calendari CE Europa 2026/27</span> → activa Sincronitza.</p></details></article>
-          <article class="subscription-option"><span class="option-kicker">02 · APPLE</span><h3>Apple Calendar</h3><p>Afegeix el calendari de subscripció amb aquest enllaç.</p><a class="text-link" id="apple-link" href="#">OBRE AMB APPLE CALENDAR ↗</a></article>
+          <article class="subscription-option"><span class="option-kicker">01 · APPLE</span><h3>Apple Calendar</h3><p>Afegeix el calendari de subscripció amb aquest enllaç.</p><a class="button button-primary subscription-action" id="apple-link" href="#"><span class="subscription-action-content">OBRE AMB APPLE CALENDAR <span aria-hidden="true">↗</span></span></a></article>
+          <article class="subscription-option"><span class="option-kicker">02 · GOOGLE</span><h3>Google Calendar</h3><p>Des d'un ordinador, obre Google Calendar i afegeix el calendari des d'URL.</p><a class="button button-primary subscription-action" href="https://calendar.google.com/calendar/" target="_blank" rel="noopener"><span class="subscription-action-content">OBRE AMB GOOGLE CALENDAR <span aria-hidden="true">↗</span></span></a><ol><li>Ves a Altres calendaris → + → Des d'URL.</li><li>Enganxa aquest enllaç.</li><li>Confirma l'addició del calendari.</li></ol><details class="android-help" open><summary>Android: activa la sincronització</summary><p>La subscripció per URL s'ha de crear des del navegador d'ordinador, no des de l'app Android. Després, al mòbil, obre Google Calendar → Configuració → selecciona el teu compte → Mostra'n més → <span id="android-calendar-name">Calendari CE Europa 2026/27</span> → activa Sincronitza.</p></details></article>
         </div>
+        <div class="feed-box"><span class="feed-label">ENLLAÇ DIRECTE DEL CALENDARI</span><code id="feed-url">Calculant l'enllaç…</code><button class="button button-secondary" type="button" id="copy-feed">COPIA L'ENLLAÇ</button><p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p></div>
         <p class="modal-note">No és una descàrrega. És una subscripció que es refresca segons el calendari de cada servei.</p>
       </div>
     </dialog>

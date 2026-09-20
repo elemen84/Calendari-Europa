@@ -40,6 +40,7 @@ def render_ics(
     games: list[Game] | tuple[Game, ...],
     descriptions: dict[str, str],
     *,
+    summaries: dict[str, str] | None = None,
     dtstamp: datetime | None = None,
     duration_minutes: int = DEFAULT_MATCH_DURATION_MINUTES,
     calendar_name: str = "Calendari CE Europa 2026/27",
@@ -67,12 +68,13 @@ def render_ics(
         ),
     ):
         key = source_key(game)
+        summary = (summaries or {}).get(key, title_for_game(game))
         lines.extend(
             [
                 "BEGIN:VEVENT",
                 f"UID:{event_uid(game)}",
                 f"DTSTAMP:{stamp.strftime('%Y%m%dT%H%M%SZ')}",
-                f"SUMMARY:{_escape(title_for_game(game))}",
+                f"SUMMARY:{_escape(summary)}",
                 f"DESCRIPTION:{_escape(descriptions.get(key, ''))}",
                 "STATUS:"
                 + (
@@ -110,6 +112,7 @@ def write_ics(
     games: list[Game] | tuple[Game, ...],
     descriptions: dict[str, str],
     *,
+    summaries: dict[str, str] | None = None,
     dtstamp: datetime | None = None,
     duration_minutes: int = DEFAULT_MATCH_DURATION_MINUTES,
     calendar_name: str = "Calendari CE Europa 2026/27",
@@ -117,6 +120,7 @@ def write_ics(
     rendered = render_ics(
         games,
         descriptions,
+        summaries=summaries,
         dtstamp=dtstamp,
         duration_minutes=duration_minutes,
         calendar_name=calendar_name,

@@ -84,15 +84,30 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     workflow = (ROOT / ".github" / "workflows" / "calendar.yml").read_text(encoding="utf-8")
     assert "Calendari CE Europa 2026/27" in html
     assert "Primera Federació · Grup 2" in html
-    assert "./assets/europa-crest.png" in html
+    assert "./assets/Europa.png" in html
     assert "europa.ics" in app
     assert "new URL(FEED_PATH, window.location.href)" in app
     assert 'cron: "15 4 * * *"' in workflow
     assert "workflow_dispatch" in workflow and "force" in workflow
     assert "cancel-in-progress: true" in workflow
     assert "public/europa.ics" in workflow
+    assert "git add public/standings" in workflow
+    assert "git add data/standings" in workflow
+    assert "path: public" in workflow
     assert "python -m pytest" in workflow
     assert "scripts/sync_calendar.py" in workflow
     assert "git diff --cached --quiet" in workflow
     assert "barca" not in workflow.lower()
     assert (ROOT / "public" / ".nojekyll").is_file()
+
+
+def test_classification_is_available_to_android_users_on_the_landing_page() -> None:
+    html = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+    app = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
+    ics = (ROOT / "public" / "europa.ics").read_text(encoding="utf-8")
+    assert 'id="classificacio"' in html
+    assert "STANDINGS_PATH" in app
+    assert "standings-table" in html
+    unfolded_ics = ics.replace("\r\n ", "").replace("\n ", "")
+    assert unfolded_ics.count("Classificació\\n") == 38
+    assert ics.count("CE Europa — 1 pts") > 0

@@ -93,6 +93,23 @@ class Game:
 
 
 @dataclass(frozen=True, slots=True)
+class StandingRow:
+    position: int
+    team: str
+    played: int
+    points: int
+    won: int | None = None
+    drawn: int | None = None
+    lost: int | None = None
+    goals_for: int | None = None
+    goals_against: int | None = None
+    goal_difference: int | None = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass(frozen=True, slots=True)
 class ProviderResult:
     competition_key: str
     games: tuple[Game, ...]

@@ -6,10 +6,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
-from src.calendar.formatting import description_for_game
+from src.calendar.formatting import description_for_game, title_for_game
 from src.calendar.ics import write_ics
 from src.config import SYNC_INTERVAL_HOURS, SeasonConfig
-from src.models import Game, ProviderResult
+from src.models import Game, ProviderResult, StandingRow
 from src.normalize import is_europa, normalize_text, source_key
 from src.providers.common import madrid_datetime
 from src.providers.rfef_schedule import OfficialScheduleResult
@@ -22,6 +22,7 @@ class CalendarBuild:
     provider_results: dict[str, ProviderResult]
     cached_games: dict[str, tuple[Game, ...]]
     source_healthy: bool = True
+    summaries: dict[str, str] | None = None
 
 
 def should_sync(state: dict[str, Any], now: datetime, *, force: bool = False) -> bool:
@@ -149,6 +150,17 @@ def _game_score(game: Game) -> tuple[int, int] | None:
     if game.home_score is None or game.away_score is None:
         return None
     return game.home_score, game.away_score
+
+
+EUROPA_HOME_VENUE = "Nou Sardenya"
+
+
+def _apply_known_europa_venue(game: Game) -> Game:
+    if not is_europa(game.home):
+        return game
+    provenance = dict(game.provenance)
+    provenance["stadium"] = "known_europa_home_venue"
+    return replace(game, venue=EUROPA_HOME_VENUE, provenance=provenance)
 
 
 def _merge_primary_game(primary: Game, secondary: Game) -> tuple[Game, tuple[str, ...]]:
@@ -446,11 +458,13 @@ def build_calendar(
     *,
     cache_root: Path,
     now: datetime,
+    standings: tuple[StandingRow, ...] | None = None,
 ) -> CalendarBuild:
     if set(providers) != {"primera-federacion"}:
         raise RuntimeError("El projecte Europa només pot contenir Primera Federació regular")
     all_games: list[Game] = []
     descriptions: dict[str, str] = {}
+    summaries: dict[str, str] = {}
     cached_games: dict[str, tuple[Game, ...]] = {}
     finalized: dict[str, ProviderResult] = {}
     source_healthy = True
@@ -484,6 +498,7 @@ def build_calendar(
             raise RuntimeError(
                 f"La font {competition_key} ha produït dades corruptes després del merge"
             )
+        selected = tuple(_apply_known_europa_venue(game) for game in selected)
         cached_games[competition_key] = selected
         finalized[competition_key] = ProviderResult(
             competition_key=fetched.competition_key,
@@ -496,13 +511,14 @@ def build_calendar(
         )
         for game in selected:
             key = source_key(game)
-            descriptions[key] = description_for_game(game)
+            descriptions[key] = description_for_game(game, standings)
+            summaries[key] = title_for_game(game, standings)
             all_games.append(game)
     unique = {source_key(game): game for game in all_games}
     games = tuple(sorted(unique.values(), key=lambda game: source_key(game)))
     if not _basic_valid(games, season=config.label):
         raise RuntimeError("El calendari final no conté exactament les 38 jornades úniques")
-    return CalendarBuild(games, descriptions, finalized, cached_games, source_healthy)
+    return CalendarBuild(games, descriptions, finalized, cached_games, source_healthy, summaries)
 
 
 def persist_build(
@@ -525,6 +541,7 @@ def persist_build(
             ics_path,
             build.games,
             build.descriptions,
+            summaries=build.summaries,
             duration_minutes=config.match_duration_minutes,
             calendar_name=f"Calendari CE Europa {config.label}",
         )

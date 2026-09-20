@@ -120,6 +120,10 @@ La landing calcula una URL HTTPS relativa a la ubicació actual i ofereix l'equi
 a Apple Calendar. Google Calendar s'afegeix des de "Des d'URL". El client de calendari decideix el
 seu propi interval de refresc, de manera que un canvi de RFEF no necessàriament és instantani.
 
+La classificació oficial també es mostra a la landing i la posició/punts del CE Europa s'inclouen al
+títol de cada esdeveniment per facilitar-ne la lectura a Android. Google Calendar requereix crear la
+subscripció des d'un navegador d'ordinador i després activar la sincronització del calendari al mòbil.
+
 ## Fonts oficials del baseline
 
 - [Calendari complet RFEF 2026/27](https://rfef.es/es/noticias/calendarios-completos-primera-federacion-temporada-202627)
