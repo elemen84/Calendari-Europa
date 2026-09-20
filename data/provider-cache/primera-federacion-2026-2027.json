@@ -9,7 +9,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -51,7 +50,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -92,7 +90,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -133,7 +130,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -173,7 +169,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -214,7 +209,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -254,7 +248,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -294,7 +287,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -335,7 +327,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -375,7 +366,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -416,7 +406,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "score": "cache",
@@ -462,7 +451,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -502,7 +490,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -542,7 +529,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -583,7 +569,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "cache",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -623,7 +608,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -664,7 +648,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -704,7 +687,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -745,7 +727,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -785,7 +766,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -826,7 +806,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -866,7 +845,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "score": "cache",
@@ -912,7 +890,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -953,7 +930,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -994,7 +970,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -1034,7 +1009,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -1074,7 +1048,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -1115,7 +1088,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -1155,7 +1127,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -1196,7 +1167,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary"
@@ -1236,7 +1206,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_baseline",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
@@ -1277,7 +1246,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "score": "cache",
@@ -1323,13 +1291,12 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
-      "score": "rfef_live",
+      "score": "cache",
       "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "rfef_live",
+      "status": "cache",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
@@ -1370,7 +1337,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
@@ -1415,7 +1381,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
@@ -1459,7 +1424,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
@@ -1503,7 +1467,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
@@ -1546,7 +1509,6 @@
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
-      "cache": "cache",
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
