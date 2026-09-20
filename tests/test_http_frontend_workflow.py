@@ -85,6 +85,8 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "Calendari CE Europa 2026/27" in html
     assert "Primera Federació · Grup 2" in html
     assert "./assets/Europa.png" in html
+    assert 'href="./styles.css?v=' in html
+    assert 'src="./app.js?v=' in html
     assert "europa.ics" in app
     assert "new URL(FEED_PATH, pageBaseUrl())" in app
     assert 'cron: "15 4 * * *"' in workflow
@@ -96,9 +98,23 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "path: public" in workflow
     assert "python -m pytest" in workflow
     assert "scripts/sync_calendar.py" in workflow
+    assert "scripts/fingerprint_frontend_assets.py" in workflow
     assert "git diff --cached --quiet" in workflow
     assert "barca" not in workflow.lower()
     assert (ROOT / "public" / ".nojekyll").is_file()
+
+
+def test_frontend_asset_fingerprints_match_file_contents() -> None:
+    from scripts.fingerprint_frontend_assets import _short_hash, fingerprint_index
+
+    html_path = ROOT / "public" / "index.html"
+    before = html_path.read_text(encoding="utf-8")
+    assert fingerprint_index() is False
+    assert html_path.read_text(encoding="utf-8") == before
+    css_v = _short_hash(ROOT / "public" / "styles.css")
+    js_v = _short_hash(ROOT / "public" / "app.js")
+    assert f'href="./styles.css?v={css_v}"' in before
+    assert f'src="./app.js?v={js_v}"' in before
 
 
 def test_classification_is_available_to_android_users_on_the_landing_page() -> None:

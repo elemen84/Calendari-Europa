@@ -73,6 +73,8 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Fingerprint frontend assets for Pages cache busting
+        run: python3 scripts/fingerprint_frontend_assets.py
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -92,6 +94,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Fingerprint frontend assets for Pages cache busting
+        run: python3 scripts/fingerprint_frontend_assets.py
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
