@@ -146,7 +146,7 @@ def test_ics_description_contains_current_standings_for_mobile_calendars() -> No
     assert "3 P · -5 DG" in rendered
 
 
-def test_ics_summary_exposes_europa_standing_for_android_event_lists() -> None:
+def test_ics_summary_keeps_matchup_only_and_standings_in_description() -> None:
     item = game()
     rows = (
         StandingRow(
@@ -168,8 +168,11 @@ def test_ics_summary_exposes_europa_standing_for_android_event_lists() -> None:
         summaries={source_key(item): title_for_game(item, rows)},
     )
     unfolded = rendered.replace("\r\n ", "")
-    assert title_for_game(item, rows).startswith("Classificació: 18è · 1 punt")
-    assert f"SUMMARY:{title_for_game(item, rows)}" in unfolded
+    assert title_for_game(item, rows) == "CE Europa - Real Jaén CF · Horari per confirmar"
+    assert "SUMMARY:CE Europa - Real Jaén CF · Horari per confirmar" in unfolded
+    assert "Classificació: 18è" not in unfolded
+    assert "18. CE Europa — 1 pts" in unfolded
+    assert "Classificació" in unfolded
 
 
 def test_europa_home_venue_is_nou_sardenya(tmp_path) -> None:

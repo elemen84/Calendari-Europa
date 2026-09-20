@@ -3,7 +3,6 @@ from __future__ import annotations
 from datetime import datetime
 
 from src.models import Game, StandingRow
-from src.normalize import is_europa
 
 
 def _status_label(status: str) -> str:
@@ -16,26 +15,8 @@ def _status_label(status: str) -> str:
     }[status]
 
 
-def _ordinal_position(position: int) -> str:
-    suffix = {1: "r", 2: "n", 3: "r", 4: "t"}.get(position, "è")
-    return f"{position}{suffix}"
-
-
-def _europa_standing(rows: tuple[StandingRow, ...] | None) -> StandingRow | None:
-    if not rows:
-        return None
-    return next((row for row in rows if is_europa(row.team)), None)
-
-
-def _standings_title(rows: tuple[StandingRow, ...] | None) -> str:
-    row = _europa_standing(rows)
-    if row is None:
-        return ""
-    points_label = "punt" if row.points == 1 else "punts"
-    return f"Classificació: {_ordinal_position(row.position)} · {row.points} {points_label}"
-
-
 def title_for_game(game: Game, standings: tuple[StandingRow, ...] | None = None) -> str:
+    _ = standings  # standings remain in the event description only
     title = f"{game.home} - {game.away}"
     if not game.time_confirmed:
         title += " · Horari per confirmar"
@@ -43,8 +24,7 @@ def title_for_game(game: Game, standings: tuple[StandingRow, ...] | None = None)
         title = f"Ajornat · {title}"
     elif game.status == "cancelled":
         title = f"Cancel·lat · {title}"
-    standings_title = _standings_title(standings)
-    return f"{standings_title} · {title}" if standings_title else title
+    return title
 
 
 def _stat(value: int | None) -> str:
