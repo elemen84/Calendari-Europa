@@ -4,9 +4,19 @@
   const FEED_PATH = "europa.ics";
   const STANDINGS_PATH = "standings/primera-federacion-grupo-2-2026-2027.json";
 
+  const pageBaseUrl = () => {
+    const base = new URL(window.location.href);
+    let path = base.pathname;
+    // Keep assets under the project page directory on GitHub Pages.
+    if (path.endsWith("/index.html")) path = path.slice(0, -"index.html".length);
+    else if (!path.endsWith("/")) path = `${path}/`;
+    base.pathname = path;
+    return base;
+  };
+
   const feedUrl = () => {
     if (PUBLIC_FEED_URL_OVERRIDE) return PUBLIC_FEED_URL_OVERRIDE;
-    return new URL(FEED_PATH, window.location.href).href;
+    return new URL(FEED_PATH, pageBaseUrl()).href;
   };
 
   const webcalUrl = (httpsUrl) => {
@@ -69,7 +79,7 @@
   const loadStandings = async () => {
     if (!standingsTable || !standingsBody) return;
     try {
-      const response = await fetch(new URL(STANDINGS_PATH, window.location.href), { cache: "no-store" });
+      const response = await fetch(new URL(STANDINGS_PATH, pageBaseUrl()), { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
       if (!payload || !Array.isArray(payload.rows)) throw new Error("Resposta invàlida");

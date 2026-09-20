@@ -86,7 +86,7 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "Primera Federació · Grup 2" in html
     assert "./assets/Europa.png" in html
     assert "europa.ics" in app
-    assert "new URL(FEED_PATH, window.location.href)" in app
+    assert "new URL(FEED_PATH, pageBaseUrl())" in app
     assert 'cron: "15 4 * * *"' in workflow
     assert "workflow_dispatch" in workflow and "force" in workflow
     assert "cancel-in-progress: true" in workflow
@@ -107,7 +107,9 @@ def test_classification_is_available_to_android_users_on_the_landing_page() -> N
     css = (ROOT / "public" / "styles.css").read_text(encoding="utf-8")
     ics = (ROOT / "public" / "europa.ics").read_text(encoding="utf-8")
     assert 'id="classificacio"' in html
+    assert 'href="#classificacio"' in html
     assert "STANDINGS_PATH" in app
+    assert "pageBaseUrl" in app
     assert "standings-table" in html
     assert 'tr.className = "is-europa"' in app
     assert "standingsSubtitle" in app
@@ -117,6 +119,10 @@ def test_classification_is_available_to_android_users_on_the_landing_page() -> N
     assert "position: sticky" in css
     assert "@media (max-width: 768px)" in css
     assert "@media (max-width: 430px)" in css
+    # Mobile must keep the Classificació header affordance (Android discovery).
+    mobile_css = css.split("@media (max-width: 640px)", 1)[1]
+    assert ".header-link { display: none; }" not in mobile_css
+    assert "scroll-margin-top" in css
     unfolded_ics = ics.replace("\r\n ", "").replace("\n ", "")
     assert unfolded_ics.count("Classificació\\n") == 38
     assert ics.count("CE Europa — 1 pts") > 0
