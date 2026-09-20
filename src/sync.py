@@ -542,6 +542,7 @@ def persist_build(
             build.games,
             build.descriptions,
             summaries=build.summaries,
+            dtstamp=now,
             duration_minutes=config.match_duration_minutes,
             calendar_name=f"Calendari CE Europa {config.label}",
         )

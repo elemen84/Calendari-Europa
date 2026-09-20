@@ -186,6 +186,34 @@ def test_europa_home_venue_is_nou_sardenya(tmp_path) -> None:
     )
 
 
+def test_persist_build_stamps_ics_so_clients_refresh_venue(tmp_path) -> None:
+    now = datetime.fromisoformat("2026-09-20T15:30:00+02:00")
+    build = build_calendar(
+        config(),
+        {"primera-federacion": (object(), ProviderResult("primera-federacion", full_games()))},
+        cache_root=tmp_path / "cache",
+        now=now,
+    )
+    ics_path = tmp_path / "public" / "europa.ics"
+    persist_build(
+        build,
+        config=config(),
+        cache_root=tmp_path / "cache",
+        ics_path=ics_path,
+        state_path=tmp_path / "data" / "sync-state.json",
+        now=now,
+    )
+    rendered = ics_path.read_text(encoding="utf-8").replace("\r\n ", "")
+    assert "DTSTAMP:20260920T133000Z" in rendered
+    assert "LOCATION:Nou Sardenya" in rendered
+    assert "Can Drag" not in rendered
+    assert all(
+        item.venue == "Nou Sardenya"
+        for item in build.games
+        if item.home == "CE Europa"
+    )
+
+
 def test_ics_generation_is_deterministic_and_escaped() -> None:
     item = replace(game(), away="Real, Jaén CF", venue="Camp; Principal")
     first = render_ics([item], {source_key(item): description_for_game(item)})
