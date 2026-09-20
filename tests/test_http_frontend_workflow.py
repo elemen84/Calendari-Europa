@@ -104,10 +104,19 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
 def test_classification_is_available_to_android_users_on_the_landing_page() -> None:
     html = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
     app = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
+    css = (ROOT / "public" / "styles.css").read_text(encoding="utf-8")
     ics = (ROOT / "public" / "europa.ics").read_text(encoding="utf-8")
     assert 'id="classificacio"' in html
     assert "STANDINGS_PATH" in app
     assert "standings-table" in html
+    assert 'tr.className = "is-europa"' in app
+    assert "standingsSubtitle" in app
+    assert "overflow-x: auto" in css
+    assert "max-width: 100%" in css
+    assert "-webkit-overflow-scrolling: touch" in css
+    assert "position: sticky" in css
+    assert "@media (max-width: 768px)" in css
+    assert "@media (max-width: 430px)" in css
     unfolded_ics = ics.replace("\r\n ", "").replace("\n ", "")
     assert unfolded_ics.count("Classificació\\n") == 38
     assert ics.count("CE Europa — 1 pts") > 0

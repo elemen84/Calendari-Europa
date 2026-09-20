@@ -55,6 +55,17 @@
     return value === null || value === undefined ? "—" : String(value);
   };
 
+  const standingsSubtitle = (payload) => {
+    const competition = typeof payload.competition === "string" ? payload.competition.trim() : "";
+    const group = typeof payload.group === "string"
+      ? payload.group.trim().replace(/^Grupo\b/i, "Grup")
+      : "";
+    if (competition && group) return `${competition} · ${group}`;
+    if (competition) return competition;
+    if (group) return group;
+    return "Font oficial RFEF.";
+  };
+
   const loadStandings = async () => {
     if (!standingsTable || !standingsBody) return;
     try {
@@ -63,27 +74,21 @@
       const payload = await response.json();
       if (!payload || !Array.isArray(payload.rows)) throw new Error("Resposta invàlida");
 
-      standingsBody.replaceChildren();
+      const rows = document.createDocumentFragment();
       payload.rows.forEach((row) => {
         const tr = document.createElement("tr");
+        if (row.team === "CE Europa") tr.className = "is-europa";
         ["position", "team", "played", "won", "drawn", "lost", "goal_difference", "points"].forEach((field) => {
           const cell = document.createElement("td");
           cell.textContent = standingsValue(row, field);
           if (field === "team") cell.className = "standing-team";
           tr.appendChild(cell);
         });
-        standingsBody.appendChild(tr);
+        rows.appendChild(tr);
       });
+      standingsBody.replaceChildren(rows);
 
-      if (standingsStatus) {
-        const retrieved = payload.retrieved_at ? new Date(payload.retrieved_at) : null;
-        const date = retrieved && !Number.isNaN(retrieved.getTime())
-          ? retrieved.toLocaleDateString("ca-ES")
-          : null;
-        standingsStatus.textContent = date
-          ? `Actualitzada el ${date} · Font oficial RFEF.`
-          : "Font oficial RFEF.";
-      }
+      if (standingsStatus) standingsStatus.textContent = standingsSubtitle(payload);
     } catch (_error) {
       standingsTable.hidden = true;
       if (standingsStatus) standingsStatus.textContent = "Classificació temporalment no disponible.";

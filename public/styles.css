@@ -296,15 +296,38 @@ h1 {
 .standings-section { padding-top: 0; }
 
 .standings-table-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--line);
   background: var(--panel);
+  scrollbar-width: thin;
+  scrollbar-color: var(--blau-light) var(--panel-strong);
+}
+
+/* Make horizontal overflow obvious on Chrome Android (overlay scrollbars). */
+.standings-table-wrap::-webkit-scrollbar {
+  height: 8px;
+}
+
+.standings-table-wrap::-webkit-scrollbar-track {
+  background: var(--panel-strong);
+}
+
+.standings-table-wrap::-webkit-scrollbar-thumb {
+  background: var(--blau-light);
+  border-radius: 999px;
 }
 
 .standings-table {
-  width: 100%;
-  min-width: 620px;
-  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 13px;
 }
 
@@ -314,6 +337,7 @@ h1 {
   padding: 12px 14px;
   text-align: right;
   white-space: nowrap;
+  background: var(--panel);
 }
 
 .standings-table th {
@@ -329,6 +353,79 @@ h1 {
 
 .standings-table tbody tr:last-child td { border-bottom: 0; }
 .standings-table .standing-team { color: var(--ink); font-weight: 600; }
+
+.standings-table tr.is-europa th,
+.standings-table tr.is-europa td {
+  background: var(--panel-strong);
+  box-shadow: inset 3px 0 0 var(--blau);
+}
+
+.standings-table tr.is-europa .standing-team {
+  color: var(--grana-bright);
+}
+
+@media (max-width: 768px) {
+  .standings-table {
+    min-width: 620px;
+    font-size: 12px;
+  }
+
+  .standings-table th,
+  .standings-table td {
+    padding: 10px 11px;
+  }
+
+  /* Keep identity columns readable while scrolling stats on Android Chrome. */
+  .standings-table th:nth-child(1),
+  .standings-table td:nth-child(1) {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    width: 3rem;
+    min-width: 3rem;
+    max-width: 3rem;
+    box-sizing: border-box;
+  }
+
+  .standings-table th:nth-child(2),
+  .standings-table td:nth-child(2) {
+    position: sticky;
+    left: 3rem;
+    z-index: 2;
+    width: 9.5rem;
+    min-width: 9.5rem;
+    max-width: 9.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 6px 0 10px -8px rgba(0, 0, 0, .55);
+  }
+
+  .standings-table tr.is-europa th:nth-child(1),
+  .standings-table tr.is-europa td:nth-child(1),
+  .standings-table tr.is-europa th:nth-child(2),
+  .standings-table tr.is-europa td:nth-child(2) {
+    background: var(--panel-strong);
+  }
+}
+
+@media (max-width: 430px) {
+  .standings-table {
+    min-width: 560px;
+    font-size: 12px;
+  }
+
+  .standings-table th,
+  .standings-table td {
+    padding: 9px 9px;
+  }
+
+  .standings-table th:nth-child(2),
+  .standings-table td:nth-child(2) {
+    width: 8.25rem;
+    min-width: 8.25rem;
+    max-width: 8.25rem;
+  }
+}
 
 .how-section {
   display: grid;
