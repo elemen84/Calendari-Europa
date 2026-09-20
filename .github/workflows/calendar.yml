@@ -73,6 +73,8 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Refresh published ICS for subscription clients
+        run: python scripts/refresh_published_ics.py
       - name: Fingerprint frontend assets for Pages cache busting
         run: python3 scripts/fingerprint_frontend_assets.py
       - name: Upload Pages artifact
@@ -94,6 +96,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -e .
+      - name: Refresh published ICS for subscription clients
+        run: python scripts/refresh_published_ics.py
       - name: Fingerprint frontend assets for Pages cache busting
         run: python3 scripts/fingerprint_frontend_assets.py
       - name: Upload Pages artifact

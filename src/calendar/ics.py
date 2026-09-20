@@ -74,6 +74,9 @@ def render_ics(
                 "BEGIN:VEVENT",
                 f"UID:{event_uid(game)}",
                 f"DTSTAMP:{stamp.strftime('%Y%m%dT%H%M%SZ')}",
+                # Monotonic with DTSTAMP so subscription clients re-read LOCATION/SUMMARY
+                # after each publish instead of keeping a stale cached copy.
+                f"SEQUENCE:{int(stamp.timestamp())}",
                 f"SUMMARY:{_escape(summary)}",
                 f"DESCRIPTION:{_escape(descriptions.get(key, ''))}",
                 "STATUS:"

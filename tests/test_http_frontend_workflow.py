@@ -99,6 +99,8 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "python -m pytest" in workflow
     assert "scripts/sync_calendar.py" in workflow
     assert "scripts/fingerprint_frontend_assets.py" in workflow
+    assert "scripts/refresh_published_ics.py" in workflow
+    assert "Refresh published ICS for subscription clients" in workflow
     assert "git diff --cached --quiet" in workflow
     assert "barca" not in workflow.lower()
     assert (ROOT / "public" / ".nojekyll").is_file()

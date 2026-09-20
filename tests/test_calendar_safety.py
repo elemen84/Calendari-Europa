@@ -205,6 +205,7 @@ def test_persist_build_stamps_ics_so_clients_refresh_venue(tmp_path) -> None:
     )
     rendered = ics_path.read_text(encoding="utf-8").replace("\r\n ", "")
     assert "DTSTAMP:20260920T133000Z" in rendered
+    assert "SEQUENCE:1789911000" in rendered
     assert "LOCATION:Nou Sardenya" in rendered
     assert "Can Drag" not in rendered
     assert all(
