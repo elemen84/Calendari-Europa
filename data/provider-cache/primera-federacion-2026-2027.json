@@ -12,7 +12,8 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "cache"
+      "stadium": "rfef_live",
+      "status": "rfef_live"
     },
     "round_name": null,
     "round_number": 10,
@@ -32,7 +33,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-11-01",
     "start_datetime": null,
     "status": "scheduled",
@@ -417,8 +418,9 @@
     "round_number": 1,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695751",
     "source_identifiers": {
+      "cod_acta": "70695751",
       "competition_id": "33836088",
       "group_id": "33836090",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-1-de-primera-federacion-temporada-202627",
@@ -432,7 +434,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-08-30",
     "start_datetime": "2026-08-30T19:15:00+02:00",
     "status": "completed",
@@ -847,7 +849,7 @@
       "identity": "rfef_baseline",
       "score": "cache",
       "secondary_crosscheck": "secondary",
-      "stadium": "cache",
+      "stadium": "rfef_live",
       "status": "cache",
       "time": "rfef_official_schedule"
     },
@@ -855,8 +857,9 @@
     "round_number": 2,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695757",
     "source_identifiers": {
+      "cod_acta": "70695757",
       "competition_id": "33836088",
       "group_id": "33836090",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-2-de-primera-federacion-temporada-202627",
@@ -870,7 +873,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-09-06",
     "start_datetime": "2026-09-06T18:15:00+02:00",
     "status": "completed",
@@ -1255,8 +1258,9 @@
     "round_number": 3,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695770",
     "source_identifiers": {
+      "cod_acta": "70695770",
       "competition_id": "33836088",
       "group_id": "33836090",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-3-de-primera-federacion-temporada-202627",
@@ -1270,7 +1274,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-09-12",
     "start_datetime": "2026-09-12T16:30:00+02:00",
     "status": "completed",
@@ -1291,7 +1295,7 @@
       "identity": "rfef_baseline",
       "score": "cache",
       "secondary_crosscheck": "secondary",
-      "stadium": "cache",
+      "stadium": "rfef_live",
       "status": "cache",
       "time": "rfef_official_schedule"
     },
@@ -1299,10 +1303,12 @@
     "round_number": 4,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695783",
     "source_identifiers": {
+      "cod_acta": "70695783",
       "competition_id": "33836088",
       "group_id": "33836090",
+      "home_team_id": "206522",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-4-de-primera-federacion-temporada-202627",
       "primary_id": "1000120",
       "round": "4",
@@ -1314,7 +1320,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-09-19",
     "start_datetime": "2026-09-19T16:30:00+02:00",
     "status": "completed",
@@ -1335,14 +1341,16 @@
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
       "stadium": "known_europa_home_venue",
+      "status": "rfef_live",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
     "round_number": 5,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695791",
     "source_identifiers": {
+      "cod_acta": "70695791",
       "competition_id": "33836088",
       "group_id": "33836090",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-5-de-primera-federacion-temporada-202627",
@@ -1356,7 +1364,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-09-27",
     "start_datetime": "2026-09-27T16:00:00+02:00",
     "status": "scheduled",
@@ -1376,7 +1384,8 @@
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
-      "stadium": "cache",
+      "stadium": "rfef_live",
+      "status": "rfef_live",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
@@ -1398,7 +1407,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-10-04",
     "start_datetime": "2026-10-04T14:15:00+02:00",
     "status": "scheduled",
@@ -1419,6 +1428,7 @@
       "identity": "rfef_baseline",
       "secondary_crosscheck": "secondary",
       "stadium": "known_europa_home_venue",
+      "status": "rfef_live",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
@@ -1440,7 +1450,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-10-11",
     "start_datetime": "2026-10-11T18:15:00+02:00",
     "status": "scheduled",
@@ -1459,14 +1469,15 @@
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
-      "secondary_candidate_time": "secondary",
-      "stadium": "cache",
+      "secondary_crosscheck": "secondary",
+      "stadium": "rfef_live",
+      "status": "rfef_live",
       "time": "rfef_live"
     },
     "round_name": null,
     "round_number": 8,
     "season": "2026/2027",
-    "secondary_candidate_time": "2026-10-16T19:00:00+02:00",
+    "secondary_candidate_time": null,
     "source_game_id": null,
     "source_identifiers": {
       "competition_id": "33836088",
@@ -1481,7 +1492,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-10-16",
     "start_datetime": "2026-10-16T19:00:00+02:00",
     "status": "scheduled",
@@ -1501,7 +1512,8 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "known_europa_home_venue"
+      "stadium": "known_europa_home_venue",
+      "status": "rfef_live"
     },
     "round_name": null,
     "round_number": 9,
@@ -1509,6 +1521,7 @@
     "secondary_candidate_time": "2026-10-25T17:00:00+01:00",
     "source_game_id": null,
     "source_identifiers": {
+      "away_team_id": "206234",
       "competition_id": "33836088",
       "group_id": "33836090",
       "primary_id": "1000120",
@@ -1521,7 +1534,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
+    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-10-25",
     "start_datetime": null,
     "status": "scheduled",
