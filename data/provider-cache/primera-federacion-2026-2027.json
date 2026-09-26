@@ -1512,14 +1512,15 @@
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
-      "secondary_candidate_time": "secondary",
+      "secondary_crosscheck": "secondary",
       "stadium": "known_europa_home_venue",
-      "status": "rfef_live"
+      "status": "rfef_live",
+      "time": "rfef_live"
     },
     "round_name": null,
     "round_number": 9,
     "season": "2026/2027",
-    "secondary_candidate_time": "2026-10-25T17:00:00+01:00",
+    "secondary_candidate_time": null,
     "source_game_id": null,
     "source_identifiers": {
       "away_team_id": "206234",
@@ -1536,10 +1537,10 @@
       "team_id": "206320"
     },
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
-    "start_date": "2026-10-25",
-    "start_datetime": null,
+    "start_date": "2026-10-23",
+    "start_datetime": "2026-10-23T21:15:00+02:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Nou Sardenya"
   }
 ]
