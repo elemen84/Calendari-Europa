@@ -1436,8 +1436,9 @@
     "round_number": 7,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695810",
     "source_identifiers": {
+      "cod_acta": "70695810",
       "competition_id": "33836088",
       "group_id": "33836090",
       "official_schedule_url": "https://rfef.es/es/noticias/horarios-y-televisiones-de-la-jornada-7-de-primera-federacion-temporada-202627",
