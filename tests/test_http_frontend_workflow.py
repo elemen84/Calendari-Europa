@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import requests
@@ -143,4 +144,8 @@ def test_classification_is_available_to_android_users_on_the_landing_page() -> N
     assert "scroll-margin-top" in css
     unfolded_ics = ics.replace("\r\n ", "").replace("\n ", "")
     assert unfolded_ics.count("Classificació\\n") == 38
-    assert ics.count("CE Europa — 1 pts") > 0
+    # Points and position change each matchday. Every event must still carry
+    # CE Europa's current classification row, after ICS line unfolding.
+    europa_rows = re.findall(r"\d+\. CE Europa — \d+ pts", unfolded_ics)
+    assert len(europa_rows) == 38
+    assert len(set(europa_rows)) == 1
