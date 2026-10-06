@@ -973,8 +973,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "rfef_live",
-      "status": "rfef_live"
+      "stadium": "cache"
     },
     "round_name": null,
     "round_number": 32,
@@ -994,7 +993,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-04-11",
     "start_datetime": null,
     "status": "scheduled",
@@ -1014,8 +1013,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "rfef_live",
-      "status": "rfef_live"
+      "stadium": "cache"
     },
     "round_name": null,
     "round_number": 33,
@@ -1035,7 +1033,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-04-18",
     "start_datetime": null,
     "status": "scheduled",
@@ -1055,8 +1053,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "known_europa_home_venue",
-      "status": "rfef_live"
+      "stadium": "known_europa_home_venue"
     },
     "round_name": null,
     "round_number": 34,
@@ -1076,7 +1073,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-04-25",
     "start_datetime": null,
     "status": "scheduled",
@@ -1096,8 +1093,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "rfef_live",
-      "status": "rfef_live"
+      "stadium": "cache"
     },
     "round_name": null,
     "round_number": 35,
@@ -1117,7 +1113,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-05-02",
     "start_datetime": null,
     "status": "scheduled",
@@ -1137,8 +1133,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "known_europa_home_venue",
-      "status": "rfef_live"
+      "stadium": "known_europa_home_venue"
     },
     "round_name": null,
     "round_number": 36,
@@ -1158,7 +1153,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-05-09",
     "start_datetime": null,
     "status": "scheduled",
@@ -1178,8 +1173,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "rfef_live",
-      "status": "rfef_live"
+      "stadium": "cache"
     },
     "round_name": null,
     "round_number": 37,
@@ -1199,7 +1193,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-05-16",
     "start_datetime": null,
     "status": "scheduled",
@@ -1219,8 +1213,7 @@
       "date": "rfef_live",
       "identity": "rfef_baseline",
       "secondary_candidate_time": "secondary",
-      "stadium": "known_europa_home_venue",
-      "status": "rfef_live"
+      "stadium": "known_europa_home_venue"
     },
     "round_name": null,
     "round_number": 38,
@@ -1240,7 +1233,7 @@
       "secondary_tournament_id": "8Qy7Nsg0",
       "team_id": "206320"
     },
-    "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
+    "source_url": "https://rfef.es/sites/default/files/2026-06/Primera_Federacion_Grupo_II.pdf",
     "start_date": "2027-05-23",
     "start_datetime": null,
     "status": "scheduled",
