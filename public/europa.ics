@@ -7,8 +7,8 @@ X-WR-CALNAME:Calendari CE Europa 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:europa:20262027:1:441791bdb3802f0e@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Real Jaén CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 1\nLocal: C
  E Europa\nVisitant: Real Jaén CF\nEstat: Finalitzat\nResultat: 0-3\nEstad
@@ -40,8 +40,8 @@ DTEND;TZID=Europe/Madrid:20260830T213000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:2:71dc85f0f23758af@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:AD Alcorcón - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 2\nLocal: A
  D Alcorcón\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 0-0\nEstadi
@@ -73,8 +73,8 @@ DTEND;TZID=Europe/Madrid:20260906T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:3:dff08ed7fe06f402@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Hércules de Alicante CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 3\nLocal: C
  E Europa\nVisitant: Hércules de Alicante CF\nEstat: Finalitzat\nResultat:
@@ -106,8 +106,8 @@ DTEND;TZID=Europe/Madrid:20260912T184500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:4:fed87921761a8b9e@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Real Murcia CF - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 4\nLocal: R
  eal Murcia CF\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 2-1\nEsta
@@ -139,8 +139,8 @@ DTEND;TZID=Europe/Madrid:20260919T184500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:5:e2b83cea7e43250f@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - CF Rayo Majadahonda
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 5\nLocal: C
  E Europa\nVisitant: CF Rayo Majadahonda\nEstat: Partit\nEstadi: Nou Sarden
@@ -172,8 +172,8 @@ DTEND;TZID=Europe/Madrid:20260927T181500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:6:5079bd96dca885c7@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:SD Huesca - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 6\nLocal: S
  D Huesca\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadio El Alcoraz\n
@@ -205,8 +205,8 @@ DTEND;TZID=Europe/Madrid:20261004T163000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:7:d4b02bf2e524d417@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Algeciras CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 7\nLocal: C
  E Europa\nVisitant: Algeciras CF\nEstat: Partit\nEstadi: Nou Sardenya\n\nC
@@ -238,8 +238,8 @@ DTEND;TZID=Europe/Madrid:20261011T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:8:32bd5efc9542222a@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:FC Cartagena - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 8\nLocal: F
  C Cartagena\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadio Municipal
@@ -271,8 +271,8 @@ DTEND;TZID=Europe/Madrid:20261016T211500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:9:3d8df4a070c7135c@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Real Zaragoza
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 9\nLocal: C
  E Europa\nVisitant: Real Zaragoza\nEstat: Partit\nEstadi: Nou Sardenya\n\n
@@ -304,42 +304,41 @@ DTEND;TZID=Europe/Madrid:20261023T233000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:10:1a1feb7b5ef5799c@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
-SUMMARY:UD Ibiza - CE Europa · Horari per confirmar
-DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
- mada (font secundària): 01/11/2026 17:00\nCompetició: Primera Federació
-  · Grup 2\nJornada: 10\nLocal: UD Ibiza\nVisitant: CE Europa\nEstat: Par
- tit\nEstadi: Estadi Municipal Can Misses\n\nClassificació\n1. Villarreal
-  CF "B" — 13 pts\n   5 PJ · 4 G · 1 E · 0 P · +7 DG\n\n2. AD Alcorc
- ón — 12 pts\n   6 PJ · 3 G · 3 E · 0 P · +9 DG\n\n3. Real Zaragoza
-  — 12 pts\n   5 PJ · 4 G · 0 E · 1 P · +3 DG\n\n4. Real Jaén CF —
-  11 pts\n   6 PJ · 3 G · 2 E · 1 P · +3 DG\n\n5. Hércules de Alicante
-  CF — 10 pts\n   6 PJ · 3 G · 1 E · 2 P · +0 DG\n\n6. Real Murcia CF
-  — 9 pts\n   4 PJ · 3 G · 0 E · 1 P · +2 DG\n\n7. FC Cartagena — 8
-  pts\n   5 PJ · 2 G · 2 E · 1 P · +4 DG\n\n8. Atlético Madrileño —
-  8 pts\n   6 PJ · 2 G · 2 E · 2 P · +3 DG\n\n9. Antequera CF — 8 pts
- \n   5 PJ · 2 G · 2 E · 1 P · +2 DG\n\n10. Real Madrid Castilla — 8
-  pts\n   6 PJ · 2 G · 2 E · 2 P · +1 DG\n\n11. Gimnàstic de Tarragona
-  — 7 pts\n   5 PJ · 2 G · 1 E · 2 P · +0 DG\n\n12. UE Sant Andreu
-  — 7 pts\n   5 PJ · 2 G · 1 E · 2 P · +0 DG\n\n13. UD Ibiza — 6 p
- ts\n   5 PJ · 2 G · 0 E · 3 P · -1 DG\n\n14. SD Huesca — 6 pts\n   5
-  PJ · 1 G · 3 E · 1 P · -2 DG\n\n15. Águilas FC — 5 pts\n   6 PJ ·
-  1 G · 2 E · 3 P · -5 DG\n\n16. CF Rayo Majadahonda — 4 pts\n   5 PJ
-  · 1 G · 1 E · 3 P · -1 DG\n\n17. Algeciras CF — 4 pts\n   5 PJ · 1
-  G · 1 E · 3 P · -4 DG\n\n18. CE Europa — 4 pts\n   5 PJ · 1 G · 1
-  E · 3 P · -4 DG\n\n19. CD Teruel — 2 pts\n   5 PJ · 0 G · 2 E · 3
-  P · -7 DG\n\n20. Juventud de Torremolinos CF — 1 pts\n   6 PJ · 0 G
-  · 1 E · 5 P · -10 DG\n\nFont: RFEF Marcadores · marcadores.rfef.es
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
+SUMMARY:UD Ibiza - CE Europa
+DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 10\nLocal:
+  UD Ibiza\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadi Municipal Ca
+ n Misses\n\nClassificació\n1. Villarreal CF "B" — 13 pts\n   5 PJ · 4
+  G · 1 E · 0 P · +7 DG\n\n2. AD Alcorcón — 12 pts\n   6 PJ · 3 G ·
+  3 E · 0 P · +9 DG\n\n3. Real Zaragoza — 12 pts\n   5 PJ · 4 G · 0 E
+  · 1 P · +3 DG\n\n4. Real Jaén CF — 11 pts\n   6 PJ · 3 G · 2 E ·
+  1 P · +3 DG\n\n5. Hércules de Alicante CF — 10 pts\n   6 PJ · 3 G ·
+  1 E · 2 P · +0 DG\n\n6. Real Murcia CF — 9 pts\n   4 PJ · 3 G · 0 E
+  · 1 P · +2 DG\n\n7. FC Cartagena — 8 pts\n   5 PJ · 2 G · 2 E · 1
+  P · +4 DG\n\n8. Atlético Madrileño — 8 pts\n   6 PJ · 2 G · 2 E ·
+  2 P · +3 DG\n\n9. Antequera CF — 8 pts\n   5 PJ · 2 G · 2 E · 1 P
+  · +2 DG\n\n10. Real Madrid Castilla — 8 pts\n   6 PJ · 2 G · 2 E ·
+  2 P · +1 DG\n\n11. Gimnàstic de Tarragona — 7 pts\n   5 PJ · 2 G ·
+  1 E · 2 P · +0 DG\n\n12. UE Sant Andreu — 7 pts\n   5 PJ · 2 G · 1
+  E · 2 P · +0 DG\n\n13. UD Ibiza — 6 pts\n   5 PJ · 2 G · 0 E · 3 P
+  · -1 DG\n\n14. SD Huesca — 6 pts\n   5 PJ · 1 G · 3 E · 1 P · -2 D
+ G\n\n15. Águilas FC — 5 pts\n   6 PJ · 1 G · 2 E · 3 P · -5 DG\n\n1
+ 6. CF Rayo Majadahonda — 4 pts\n   5 PJ · 1 G · 1 E · 3 P · -1 DG\n
+ \n17. Algeciras CF — 4 pts\n   5 PJ · 1 G · 1 E · 3 P · -4 DG\n\n18.
+  CE Europa — 4 pts\n   5 PJ · 1 G · 1 E · 3 P · -4 DG\n\n19. CD Teru
+ el — 2 pts\n   5 PJ · 0 G · 2 E · 3 P · -7 DG\n\n20. Juventud de Tor
+ remolinos CF — 1 pts\n   6 PJ · 0 G · 1 E · 5 P · -10 DG\n\nFont: RF
+ EF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadi Municipal Can Misses
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;TZID=Europe/Madrid:20261030T210000
+DTEND;TZID=Europe/Madrid:20261030T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:11:16c802c69fddbcd6@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Atlético Madrileño · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 08/11/2026 17:00\nCompetició: Primera Federació
@@ -372,8 +371,8 @@ DTEND;VALUE=DATE:20261109
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:12:56779e799c190be0@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - UE Sant Andreu · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 15/11/2026 17:00\nCompetició: Primera Federació
@@ -406,8 +405,8 @@ DTEND;VALUE=DATE:20261116
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:13:a9f951a81ae62533@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Águilas FC - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 22/11/2026 17:00\nCompetició: Primera Federació
@@ -439,8 +438,8 @@ DTEND;VALUE=DATE:20261123
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:14:90429e4ab22530e1@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Villarreal CF "B" · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 29/11/2026 17:00\nCompetició: Primera Federació
@@ -473,8 +472,8 @@ DTEND;VALUE=DATE:20261130
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:15:76438371b61b286e@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Antequera CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 06/12/2026 17:00\nCompetició: Primera Federació
@@ -506,8 +505,8 @@ DTEND;VALUE=DATE:20261207
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:16:641b8722600de5ca@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Juventud de Torremolinos CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 13/12/2026 17:00\nCompetició: Primera Federació
@@ -539,8 +538,8 @@ DTEND;VALUE=DATE:20261214
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:17:63ef2cd8207197b4@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Gimnàstic de Tarragona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 20/12/2026 17:00\nCompetició: Primera Federació
@@ -573,8 +572,8 @@ DTEND;VALUE=DATE:20261221
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:18:37fb0bd7cad314fa@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Real Madrid Castilla - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 03/01/2027 17:00\nCompetició: Primera Federació
@@ -606,8 +605,8 @@ DTEND;VALUE=DATE:20270104
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:19:f906a97e2745a8da@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - CD Teruel · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 10/01/2027 17:00\nCompetició: Primera Federació
@@ -640,8 +639,8 @@ DTEND;VALUE=DATE:20270111
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:20:1da704066ce3ddbb@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Hércules de Alicante CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 17/01/2027 17:00\nCompetició: Primera Federació
@@ -673,8 +672,8 @@ DTEND;VALUE=DATE:20270118
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:21:e470606bbf59855c@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CF Rayo Majadahonda - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 24/01/2027 17:00\nCompetició: Primera Federació
@@ -706,8 +705,8 @@ DTEND;VALUE=DATE:20270125
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:22:8e9f0b5852e35091@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Real Murcia CF · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 31/01/2027 17:00\nCompetició: Primera Federació
@@ -740,8 +739,8 @@ DTEND;VALUE=DATE:20270201
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:23:d7dd61422d485f51@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Algeciras CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 06/02/2027 17:00\nCompetició: Primera Federació
@@ -773,8 +772,8 @@ DTEND;VALUE=DATE:20270208
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:24:ca0ecd38e9db1e35@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Águilas FC · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 14/02/2027 17:00\nCompetició: Primera Federació
@@ -807,8 +806,8 @@ DTEND;VALUE=DATE:20270215
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:25:5b3b429f0a2bc5ae@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Real Zaragoza - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 21/02/2027 17:00\nCompetició: Primera Federació
@@ -840,8 +839,8 @@ DTEND;VALUE=DATE:20270222
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:26:ad88a6baf8530aeb@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Juventud de Torremolinos CF · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 28/02/2027 17:00\nCompetició: Primera Federació
@@ -874,8 +873,8 @@ DTEND;VALUE=DATE:20270301
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:27:4a8f316815698cb7@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Atlético Madrileño - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 07/03/2027 17:00\nCompetició: Primera Federació
@@ -907,8 +906,8 @@ DTEND;VALUE=DATE:20270308
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:28:f995251d36c5ac4f@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - FC Cartagena · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 14/03/2027 17:00\nCompetició: Primera Federació
@@ -941,8 +940,8 @@ DTEND;VALUE=DATE:20270315
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:29:4d596758bb5ed1b5@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:UE Sant Andreu - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 21/03/2027 17:00\nCompetició: Primera Federació
@@ -974,8 +973,8 @@ DTEND;VALUE=DATE:20270322
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:30:3f4b03914b5451e4@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - UD Ibiza · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 28/03/2027 17:00\nCompetició: Primera Federació
@@ -1008,8 +1007,8 @@ DTEND;VALUE=DATE:20270329
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:31:0bdd74350e95bce1@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - SD Huesca · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 04/04/2027 17:00\nCompetició: Primera Federació
@@ -1042,8 +1041,8 @@ DTEND;VALUE=DATE:20270405
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:32:603188ee5c66602e@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Gimnàstic de Tarragona - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 11/04/2027 17:00\nCompetició: Primera Federació
@@ -1077,8 +1076,8 @@ DTEND;VALUE=DATE:20270412
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:33:75964b8b14072dc2@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Villarreal CF "B" - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 18/04/2027 17:00\nCompetició: Primera Federació
@@ -1112,8 +1111,8 @@ DTEND;VALUE=DATE:20270419
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:34:7afa4c684aa9bfbf@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - AD Alcorcón · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 25/04/2027 17:00\nCompetició: Primera Federació
@@ -1146,8 +1145,8 @@ DTEND;VALUE=DATE:20270426
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:35:e71f28714fa6fbac@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CD Teruel - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 02/05/2027 17:00\nCompetició: Primera Federació
@@ -1180,8 +1179,8 @@ DTEND;VALUE=DATE:20270503
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:36:4ed8741f9fa698f5@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Antequera CF · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 09/05/2027 17:00\nCompetició: Primera Federació
@@ -1214,8 +1213,8 @@ DTEND;VALUE=DATE:20270510
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:37:5c7666445ecbc891@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:Real Jaén CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 16/05/2027 17:00\nCompetició: Primera Federació
@@ -1249,8 +1248,8 @@ DTEND;VALUE=DATE:20270517
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:38:980110f517ca130c@europa-calendar
-DTSTAMP:20261007T110633Z
-SEQUENCE:1791371193
+DTSTAMP:20261008T112356Z
+SEQUENCE:1791458636
 SUMMARY:CE Europa - Real Madrid Castilla · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 23/05/2027 17:00\nCompetició: Primera Federació

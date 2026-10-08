@@ -11,14 +11,15 @@
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
-      "secondary_candidate_time": "secondary",
+      "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "rfef_live"
+      "status": "rfef_live",
+      "time": "rfef_live"
     },
     "round_name": null,
     "round_number": 10,
     "season": "2026/2027",
-    "secondary_candidate_time": "2026-11-01T17:00:00+01:00",
+    "secondary_candidate_time": null,
     "source_game_id": null,
     "source_identifiers": {
       "competition_id": "33836088",
@@ -34,10 +35,10 @@
       "team_id": "206320"
     },
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
-    "start_date": "2026-11-01",
-    "start_datetime": null,
+    "start_date": "2026-10-30",
+    "start_datetime": "2026-10-30T21:00:00+01:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Estadi Municipal Can Misses"
   },
   {
@@ -1484,8 +1485,9 @@
     "round_number": 8,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695820",
     "source_identifiers": {
+      "cod_acta": "70695820",
       "competition_id": "33836088",
       "group_id": "33836090",
       "primary_id": "1000120",
