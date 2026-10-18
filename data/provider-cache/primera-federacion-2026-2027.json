@@ -1344,10 +1344,10 @@
     "provenance": {
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
-      "score": "rfef_live",
+      "score": "cache",
       "secondary_crosscheck": "secondary",
       "stadium": "known_europa_home_venue",
-      "status": "rfef_live",
+      "status": "cache",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
