@@ -20,8 +20,9 @@
     "round_number": 10,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695841",
     "source_identifiers": {
+      "cod_acta": "70695841",
       "competition_id": "33836088",
       "group_id": "33836090",
       "primary_id": "1000120",
@@ -1389,10 +1390,10 @@
     "provenance": {
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
-      "score": "rfef_live",
+      "score": "cache",
       "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "rfef_live",
+      "status": "cache",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
