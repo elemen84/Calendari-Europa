@@ -139,7 +139,7 @@
     "round_name": null,
     "round_number": 13,
     "season": "2026/2027",
-    "secondary_candidate_time": "2026-11-22T17:00:00+01:00",
+    "secondary_candidate_time": "2026-11-21T18:45:00+01:00",
     "source_game_id": null,
     "source_identifiers": {
       "competition_id": "33836088",
@@ -1522,7 +1522,6 @@
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
-      "secondary_crosscheck": "secondary",
       "stadium": "known_europa_home_venue",
       "status": "rfef_live",
       "time": "rfef_live"
@@ -1549,7 +1548,7 @@
     },
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-10-23",
-    "start_datetime": "2026-10-23T21:15:00+02:00",
+    "start_datetime": "2026-10-23T21:18:00+02:00",
     "status": "scheduled",
     "time_confirmed": true,
     "venue": "Nou Sardenya"
