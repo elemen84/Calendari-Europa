@@ -849,10 +849,10 @@
     "provenance": {
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
-      "score": "cache",
+      "score": "rfef_live",
       "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "cache",
+      "status": "rfef_live",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
