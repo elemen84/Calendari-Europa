@@ -1469,16 +1469,17 @@
   },
   {
     "away": "CE Europa",
-    "away_score": null,
+    "away_score": 0,
     "competition_key": "primera-federacion",
     "competition_name": "Primera Federació · Grup 2",
     "home": "FC Cartagena",
-    "home_score": null,
+    "home_score": 3,
     "leg": null,
     "phase": "Fase regular",
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
+      "score": "rfef_live",
       "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
       "status": "rfef_live",
@@ -1506,7 +1507,7 @@
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-10-16",
     "start_datetime": "2026-10-16T19:00:00+02:00",
-    "status": "scheduled",
+    "status": "completed",
     "time_confirmed": true,
     "venue": "Estadio Municipal Cartagonova"
   },
