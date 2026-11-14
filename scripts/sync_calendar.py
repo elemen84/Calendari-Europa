@@ -54,7 +54,11 @@ def main() -> int:
                 f"{SYNC_INTERVAL_HOURS} hores des de l'últim sync correcte."
             )
             return 0
-        rfef_client = RequestsSessionClient()
+        rfef_client = RequestsSessionClient(
+            min_interval=0.8,
+            session_request_limit=8,
+            retries=4,
+        )
         provider = RFEFProvider(config, rfef_client)
         standings_provider = RFEFStandingsProvider(config, rfef_client)
         try:

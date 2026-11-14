@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+from collections.abc import Callable
 from typing import Any
 
 import requests
@@ -19,9 +20,17 @@ class RequestsSessionClient:
         retries: int = 3,
         user_agent: str = "CalendariEuropa/0.1 (+https://github.com/elemen84/Calendari-Europa-26-27)",
         session: requests.Session | None = None,
+        min_interval: float = 0.0,
+        session_request_limit: int | None = None,
+        sleeper: Callable[[float], None] = time.sleep,
     ) -> None:
         self.timeout = timeout
         self.retries = retries
+        self.min_interval = min_interval
+        self.session_request_limit = session_request_limit
+        self._sleep = sleeper
+        self._requests_in_session = 0
+        self._last_request_at = 0.0
         self.session = session or requests.Session()
         self.session.headers.update(
             {
@@ -31,16 +40,39 @@ class RequestsSessionClient:
             }
         )
 
+    def _reset_session(self) -> None:
+        self.session.cookies.clear()
+        self._requests_in_session = 0
+
+    def _throttle(self) -> None:
+        if self.min_interval <= 0:
+            return
+        if self._last_request_at <= 0:
+            return
+        elapsed = time.monotonic() - self._last_request_at
+        remaining = self.min_interval - elapsed
+        if remaining > 0:
+            self._sleep(remaining)
+
     def get_html(self, url: str, *, params: dict[str, Any] | None = None) -> str:
         last_error: Exception | None = None
         for attempt in range(self.retries + 1):
+            empty_body = False
             try:
+                if (
+                    self.session_request_limit is not None
+                    and self._requests_in_session >= self.session_request_limit
+                ):
+                    self._reset_session()
+                self._throttle()
                 response = self.session.get(
                     url,
                     params=params,
                     timeout=self.timeout,
                     allow_redirects=True,
                 )
+                self._last_request_at = time.monotonic()
+                self._requests_in_session += 1
                 if response.status_code == 429 or response.status_code >= 500:
                     response.raise_for_status()
                 if response.status_code >= 400:
@@ -48,6 +80,8 @@ class RequestsSessionClient:
                 if "NLogin" in response.url:
                     raise OfficialHttpError("El portal RFEF ha redirigit la sessió al login")
                 if not response.content:
+                    empty_body = True
+                    self._reset_session()
                     raise OfficialHttpError(f"Resposta HTML buida en {response.url}")
                 content_type = response.headers.get("Content-Type", "").lower()
                 if content_type and "html" not in content_type:
@@ -61,5 +95,6 @@ class RequestsSessionClient:
                 last_error = exc
                 if attempt >= self.retries:
                     break
-                time.sleep(0.5 * (2**attempt))
+                delay = (2.0 if empty_body else 0.5) * (2**attempt)
+                self._sleep(min(delay, 8.0))
         raise OfficialHttpError(f"Error consultant {url}: {last_error}") from last_error

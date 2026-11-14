@@ -155,8 +155,14 @@ def _game_score(game: Game) -> tuple[int, int] | None:
 EUROPA_HOME_VENUE = "Nou Sardenya"
 
 
+def _is_can_drago_venue(venue: str | None) -> bool:
+    return venue is not None and "candrago" in normalize_text(venue)
+
+
 def _apply_known_europa_venue(game: Game) -> Game:
     if not is_europa(game.home):
+        return game
+    if game.venue and not _is_can_drago_venue(game.venue):
         return game
     provenance = dict(game.provenance)
     provenance["stadium"] = "known_europa_home_venue"

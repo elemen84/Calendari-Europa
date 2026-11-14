@@ -189,6 +189,27 @@ def test_europa_home_venue_is_nou_sardenya(tmp_path) -> None:
     )
 
 
+def test_europa_home_keeps_explicit_non_can_drago_venue(tmp_path) -> None:
+    games = tuple(
+        replace(item, venue="Estadio Can Dragó")
+        if item.round_number == 11
+        else replace(item, venue="RCDE Stadium")
+        if item.round_number == 12
+        else item
+        for item in full_games()
+    )
+    result = build_calendar(
+        config(),
+        {"primera-federacion": (object(), ProviderResult("primera-federacion", games))},
+        cache_root=tmp_path / "cache",
+        now=datetime.fromisoformat("2026-11-12T12:00:00+01:00"),
+    )
+    by_round = {item.round_number: item for item in result.games}
+    assert by_round[11].venue == "Nou Sardenya"
+    assert by_round[12].venue == "RCDE Stadium"
+    assert by_round[1].venue == "Nou Sardenya"
+
+
 def test_persist_build_stamps_ics_so_clients_refresh_venue(tmp_path) -> None:
     now = datetime.fromisoformat("2026-09-20T15:30:00+02:00")
     build = build_calendar(

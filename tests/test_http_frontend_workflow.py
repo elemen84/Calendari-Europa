@@ -79,6 +79,73 @@ def test_http_empty_body_is_fail_closed() -> None:
         raise AssertionError("S'esperava una resposta buida")
 
 
+def test_http_empty_body_retries_with_fresh_session() -> None:
+    session = requests.Session()
+    sleeps: list[float] = []
+    calls = {"n": 0}
+
+    class Empty:
+        status_code = 200
+        url = "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada"
+        headers = {"Content-Type": "text/html"}
+        content = b""
+
+    class Ok:
+        status_code = 200
+        url = "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada"
+        headers = {"Content-Type": "text/html"}
+        content = b"<html><body>ok</body></html>"
+
+    def get(*args, **kwargs):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            session.cookies.set("JSESSIONID", "stale")
+            return Empty()
+        session.cookies.set("JSESSIONID", "fresh")
+        return Ok()
+
+    session.get = get  # type: ignore[method-assign]
+    html = RequestsSessionClient(
+        session=session,
+        retries=1,
+        sleeper=sleeps.append,
+    ).get_html(Ok.url)
+    assert html == "<html><body>ok</body></html>"
+    assert calls["n"] == 2
+    assert sleeps == [2.0]
+    assert session.cookies.get("JSESSIONID") == "fresh"
+
+
+def test_http_rotates_session_after_request_limit() -> None:
+    session = requests.Session()
+    seen_cookies: list[str | None] = []
+
+    class Response:
+        status_code = 200
+        url = "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada"
+        headers = {"Content-Type": "text/html"}
+        content = b"<html><body>ok</body></html>"
+
+    def get(*args, **kwargs):
+        seen_cookies.append(session.cookies.get("JSESSIONID"))
+        session.cookies.set("JSESSIONID", f"s{len(seen_cookies)}")
+        return Response()
+
+    session.get = get  # type: ignore[method-assign]
+    client = RequestsSessionClient(
+        session=session,
+        retries=0,
+        session_request_limit=2,
+        sleeper=lambda _delay: None,
+    )
+    client.get_html(Response.url)
+    client.get_html(Response.url)
+    client.get_html(Response.url)
+    assert seen_cookies[0] is None
+    assert seen_cookies[1] == "s1"
+    assert seen_cookies[2] is None
+
+
 def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     html = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
     app = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
@@ -99,6 +166,9 @@ def test_frontend_feed_assets_and_workflow_are_europa_specific() -> None:
     assert "path: public" in workflow
     assert "python -m pytest" in workflow
     assert "scripts/sync_calendar.py" in workflow
+    sync_script = (ROOT / "scripts" / "sync_calendar.py").read_text(encoding="utf-8")
+    assert "min_interval=0.8" in sync_script
+    assert "session_request_limit=8" in sync_script
     assert "scripts/fingerprint_frontend_assets.py" in workflow
     assert "scripts/refresh_published_ics.py" in workflow
     assert "Refresh published ICS for subscription clients" in workflow
