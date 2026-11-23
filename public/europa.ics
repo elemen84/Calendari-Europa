@@ -7,27 +7,27 @@ X-WR-CALNAME:Calendari CE Europa 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:europa:20262027:1:441791bdb3802f0e@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Real Jaén CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 1\nLocal: C
  E Europa\nVisitant: Real Jaén CF\nEstat: Finalitzat\nResultat: 0-3\nEstad
  i: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ
   · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13
-  PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13
-  PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ
-  · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts
- \n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n
-    12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 p
- ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts
- \n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12
-  PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n
+  PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ
+  · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ
+  · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ ·
+  6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G ·
+  3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   1
+ 3 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 P
+ J · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n
     13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n
     13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n
-    12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n
+    13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n
     13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona —
   16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 p
- ts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n
+ ts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n
     13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
     13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
   — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
@@ -41,33 +41,33 @@ DTEND;TZID=Europe/Madrid:20260830T213000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:2:71dc85f0f23758af@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:AD Alcorcón - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 2\nLocal: A
  D Alcorcón\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 0-0\nEstadi
  : Estadio Municipal Santo Domingo\n\nClassificació\n1. Real Zaragoza —
   30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B"
-  — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF
-  — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón —
-  21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alican
- te CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagen
- a — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Cas
- tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén
-  CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza —
-  18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileñ
- o — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+  — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón
+  — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF
+  — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena —
+  22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts
+ \n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Cas
+ tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén
+  CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Ma
+ drileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Anteque
+ ra CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras
+  CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andr
+ eu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de
+  Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hu
+ esca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa
+  — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
+  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
+ remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
+  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
+ 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
+ FEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Municipal Santo Domingo
 DTSTART;TZID=Europe/Madrid:20260906T181500
@@ -75,33 +75,33 @@ DTEND;TZID=Europe/Madrid:20260906T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:3:dff08ed7fe06f402@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Hércules de Alicante CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 3\nLocal: C
  E Europa\nVisitant: Hércules de Alicante CF\nEstat: Finalitzat\nResultat:
   1-1\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts
  \n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 p
- ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 p
- ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts
+ \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;TZID=Europe/Madrid:20260912T163000
@@ -109,33 +109,33 @@ DTEND;TZID=Europe/Madrid:20260912T184500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:4:fed87921761a8b9e@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Real Murcia CF - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 4\nLocal: R
  eal Murcia CF\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 2-1\nEsta
  di: Estadio Nueva Condomina\n\nClassificació\n1. Real Zaragoza — 30 pts
  \n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 p
- ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 p
- ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts
+ \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Nueva Condomina
 DTSTART;TZID=Europe/Madrid:20260919T163000
@@ -143,33 +143,33 @@ DTEND;TZID=Europe/Madrid:20260919T184500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:5:e2b83cea7e43250f@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - CF Rayo Majadahonda
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 5\nLocal: C
  E Europa\nVisitant: CF Rayo Majadahonda\nEstat: Finalitzat\nResultat: 1-0
  \nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts\n
     13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts
- \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts
- \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n
+    13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n
+    13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   1
+ 3 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ ·
+  6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;TZID=Europe/Madrid:20260927T160000
@@ -177,27 +177,27 @@ DTEND;TZID=Europe/Madrid:20260927T181500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:6:5079bd96dca885c7@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:SD Huesca - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 6\nLocal: S
  D Huesca\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 3-1\nEstadi: E
  stadio El Alcoraz\n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ
   · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13
-  PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13
-  PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ
-  · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts
- \n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n
-    12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 p
- ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts
- \n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12
-  PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n
+  PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ
+  · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ
+  · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ ·
+  6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G ·
+  3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   1
+ 3 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 P
+ J · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n
     13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n
     13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n
-    12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n
+    13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n
     13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona —
   16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 p
- ts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n
+ ts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n
     13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
     13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
   — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
@@ -211,27 +211,27 @@ DTEND;TZID=Europe/Madrid:20261004T163000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:7:d4b02bf2e524d417@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Algeciras CF
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 7\nLocal: C
  E Europa\nVisitant: Algeciras CF\nEstat: Partit\nEstadi: Nou Sardenya\n\nC
  lassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P
   · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1
-  P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4
-  P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P
-  · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3
-  E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E
-  · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G ·
-  4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4
-  E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4
-  P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
+  P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P
+  · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P
+  · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P ·
+  +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n
+ \n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P ·
+  +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4
+  P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P
+  · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
   · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E ·
-  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5
-  P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
+  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6
+  P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
   P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G ·
-  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E
-  · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
+  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E
+  · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
   P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P
   · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G
   · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ ·
@@ -244,27 +244,27 @@ DTEND;TZID=Europe/Madrid:20261011T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:8:32bd5efc9542222a@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:FC Cartagena - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 8\nLocal: F
  C Cartagena\nVisitant: CE Europa\nEstat: Finalitzat\nResultat: 3-0\nEstadi
  : Estadio Municipal Cartagonova\n\nClassificació\n1. Real Zaragoza — 30
   pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" —
-  24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF —
-  23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21
-  pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante
-  CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Cas
- tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén
-  CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza —
-  18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileñ
- o — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
+  24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24
+  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23
+  pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts
+ \n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13
+  PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 p
+ ts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla —
+  19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19
+  pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño
+  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
   — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
+  — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu
   — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
  arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
+ ca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa —
   13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
   pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
  os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
@@ -278,27 +278,27 @@ DTEND;TZID=Europe/Madrid:20261016T211500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:9:3d8df4a070c7135c@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Real Zaragoza
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 9\nLocal: C
  E Europa\nVisitant: Real Zaragoza\nEstat: Partit\nEstadi: Nou Sardenya\n\n
  Classificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P
   · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1
-  P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4
-  P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P
-  · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3
-  E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E
-  · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G ·
-  4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4
-  E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4
-  P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
+  P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P
+  · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P
+  · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P ·
+  +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n
+ \n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P ·
+  +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4
+  P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P
+  · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
   · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E ·
-  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5
-  P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
+  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6
+  P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
   P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G ·
-  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E
-  · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
+  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E
+  · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
   P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P
   · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G
   · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ ·
@@ -311,27 +311,27 @@ DTEND;TZID=Europe/Madrid:20261023T233300
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:10:1a1feb7b5ef5799c@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:UD Ibiza - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 10\nLocal:
   UD Ibiza\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadi Municipal Ca
  n Misses\n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G
   · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6
-  G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7
-  G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G
-  · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13
-  PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ
-  · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   1
- 3 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 P
- J · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G
-  · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ
+  G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G
+  · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G
+  · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G ·
+  4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E ·
+  4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G
+  · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ ·
+  5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5
+  G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ
   · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ ·
-  4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5
-  G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4
+  4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5
+  G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4
   G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13
-  PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ ·
-  3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G
+  PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ ·
+  3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G
   · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G ·
   6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13
   PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n
@@ -345,33 +345,33 @@ DTEND;TZID=Europe/Madrid:20261030T231500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:11:16c802c69fddbcd6@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Atlético Madrileño
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 11\nLocal:
   CE Europa\nVisitant: Atlético Madrileño\nEstat: Finalitzat\nResultat: 3
  -2\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts\n
     13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts
- \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts
- \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n
+    13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n
+    13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   1
+ 3 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ ·
+  6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;TZID=Europe/Madrid:20261108T120000
@@ -379,33 +379,32 @@ DTEND;TZID=Europe/Madrid:20261108T141500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:12:56779e799c190be0@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - UE Sant Andreu
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 12\nLocal:
   CE Europa\nVisitant: UE Sant Andreu\nEstat: Partit\nEstadi: RCDE Stadium
  \n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E ·
   1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E
-  · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E
-  · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E ·
-  1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G
-  · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G ·
-  4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ · 5
-  G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G
-  · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E
-  · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G
-  · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G ·
-  5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2
-  E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4
-  E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ ·
-  4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G
-  · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1
-  E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E
-  · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ
-  · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13
-  PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ
-  · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcadores · marcadores.rfe
- f.es
+  · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E ·
+  1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E ·
+  4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P
+  · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 D
+ G\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P
+  · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E ·
+  4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4
+  P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
+  · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E ·
+  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6
+  P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
+  P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G ·
+  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E
+  · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
+  P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P
+  · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G
+  · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ ·
+  2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ · 1 G
+  · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:RCDE Stadium
 DTSTART;TZID=Europe/Madrid:20261114T184800
@@ -413,27 +412,27 @@ DTEND;TZID=Europe/Madrid:20261114T210300
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:13:a9f951a81ae62533@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Águilas FC - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 13\nLocal:
   Águilas FC\nVisitant: CE Europa\nEstat: Partit\nEstadi: Estadio El Rubia
  l\n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E
   · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6
-  E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2
-  E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E
-  · 1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6
-  G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G
-  · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ ·
-  5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5
-  G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3
-  E · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G
+  E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E
+  · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E
+  · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E ·
+  3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P ·
+  +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E
+  · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G ·
+  4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4
+  E · 4 P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G
   · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G ·
-  5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2
-  E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4
+  5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2
+  E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4
   E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ ·
-  4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G
-  · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1
+  4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G
+  · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1
   E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E
   · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ
   · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13
@@ -447,27 +446,27 @@ DTEND;TZID=Europe/Madrid:20261121T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:14:90429e4ab22530e1@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Villarreal CF "B"
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 14\nLocal:
   CE Europa\nVisitant: Villarreal CF "B"\nEstat: Partit\nEstadi: Nou Sarden
  ya\n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E
   · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6
-  E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2
-  E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E
-  · 1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6
-  G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G
-  · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ ·
-  5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5
-  G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3
-  E · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G
+  E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E
+  · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E
+  · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E ·
+  3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P ·
+  +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E
+  · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G ·
+  4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4
+  E · 4 P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G
   · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G ·
-  5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2
-  E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4
+  5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2
+  E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4
   E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ ·
-  4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G
-  · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1
+  4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G
+  · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1
   E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E
   · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ
   · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13
@@ -481,27 +480,27 @@ DTEND;TZID=Europe/Madrid:20261129T141500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:15:76438371b61b286e@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Antequera CF - CE Europa
 DESCRIPTION:Competició: Primera Federació · Grup 2\nJornada: 15\nLocal:
   Antequera CF\nVisitant: CE Europa\nEstat: Partit\nEstadi: Nuevo Estadio E
  l Maulí\n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G
   · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6
-  G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7
-  G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G
-  · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13
-  PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ
-  · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   1
- 3 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 P
- J · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G
-  · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ
+  G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G
+  · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G
+  · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G ·
+  4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E ·
+  4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G
+  · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ ·
+  5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5
+  G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ
   · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ ·
-  4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5
-  G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4
+  4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5
+  G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4
   G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13
-  PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ ·
-  3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G
+  PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ ·
+  3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G
   · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G ·
   6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13
   PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n
@@ -515,8 +514,8 @@ DTEND;TZID=Europe/Madrid:20261206T181500
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:16:641b8722600de5ca@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Juventud de Torremolinos CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 13/12/2026 17:00\nCompetició: Primera Federació
@@ -524,25 +523,25 @@ DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
   Europa\nEstat: Partit\nEstadi: Estadio Municipal El Pozuelo\n\nClassifica
  ció\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG
  \n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11
-  DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 D
- G\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n
- \n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P ·
-  +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4
-  DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P
-  · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P ·
-  +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n
- \n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3
-  DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG
- \n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n
- \n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n
- \n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P ·
-  -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG
- \n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n1
- 7. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. J
- uventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9
-  DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P
-  · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -1
- 5 DG\n\nFont: RFEF Marcadores · marcadores.rfef.es
+  DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG
+ \n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n
+ \n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6.
+  UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércul
+ es de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8.
+  Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n
+ \n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n1
+ 0. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG
+ \n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n
+ \n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n1
+ 3. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14
+ . Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2
+  DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n
+ \n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17.
+  Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juv
+ entud de Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 D
+ G\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P ·
+  -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 D
+ G\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Municipal El Pozuelo
 DTSTART;VALUE=DATE:20261213
@@ -550,34 +549,34 @@ DTEND;VALUE=DATE:20261214
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:17:63ef2cd8207197b4@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Gimnàstic de Tarragona · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 20/12/2026 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 17\nLocal: CE Europa\nVisitant: Gimnàstic de Tarrago
  na\nEstat: Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoz
  a — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF
-  "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia
-  CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón
-  — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Al
- icante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Car
- tagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madri
- d Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real J
- aén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza
-  — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madri
- leño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera
-  CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+  "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcó
+ n — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF
+  — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena —
+  22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts
+ \n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Cas
+ tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén
+  CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Ma
+ drileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Anteque
+ ra CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras
+  CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andr
+ eu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de
+  Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hu
+ esca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa
+  — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
+  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
+ remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
+  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
+ 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
+ FEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20261220
@@ -585,8 +584,8 @@ DTEND;VALUE=DATE:20261221
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:18:37fb0bd7cad314fa@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Real Madrid Castilla - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 03/01/2027 17:00\nCompetició: Primera Federació
@@ -594,19 +593,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  \nEstat: Partit\nEstadi: Estadio Alfredo Di Stéfano\n\nClassificació\n1.
   Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. V
  illarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3.
-  Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. A
- D Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hér
- cules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n
- \n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7.
-  Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n
- \n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9
- . UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlé
+  AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Re
+ al Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC C
+ artagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Ali
+ cante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Mad
+ rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real
+  Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlé
  tico Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11.
   Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Al
- geciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sa
+ geciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sa
  nt Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnà
  stic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15
- . SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE E
+ . SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE E
  uropa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas
   FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de
   Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19.
@@ -620,34 +619,34 @@ DTEND;VALUE=DATE:20270104
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:19:f906a97e2745a8da@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - CD Teruel · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 10/01/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 19\nLocal: CE Europa\nVisitant: CD Teruel\nEstat: Par
  tit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts\n
     13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts
- \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts
- \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n
+    13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n
+    13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   1
+ 3 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ ·
+  6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270110
@@ -655,8 +654,8 @@ DTEND;VALUE=DATE:20270111
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:20:1da704066ce3ddbb@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Hércules de Alicante CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 17/01/2027 17:00\nCompetició: Primera Federació
@@ -664,19 +663,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  opa\nEstat: Partit\nEstadi: Estadio José Rico Pérez\n\nClassificació\n1
  . Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2.
   Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n
- 3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4.
-  AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. H
- ércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG
- \n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n
- 7. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG
- \n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n
- \n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. A
+ 3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4.
+  Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. F
+ C Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ib
+ iza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de
+  Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real
+  Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9.
+  Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. A
  tlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n
  11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12.
-  Algeciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE
+  Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE
   Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gim
  nàstic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n
- \n15. SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16.
+ \n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16.
   CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águ
  ilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud
   de Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n
@@ -690,34 +689,34 @@ DTEND;VALUE=DATE:20270118
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:21:e470606bbf59855c@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CF Rayo Majadahonda - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 24/01/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 21\nLocal: CF Rayo Majadahonda\nVisitant: CE Europa\n
  Estat: Partit\nEstadi: Cerro del Espino - Campo 1\n\nClassificació\n1. Re
  al Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Vill
- arreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Re
- al Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD A
- lcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércul
- es de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6.
-  FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Rea
- l Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8.
-  Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD
-  Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético
-  Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Ante
- quera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algecir
- as CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant An
- dreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic
-  de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD
-  Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europ
- a — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
-  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
- remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
-  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
- 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
- FEF Marcadores · marcadores.rfef.es
+ arreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD
+  Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real
+  Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Car
+ tagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Ali
+ cante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Mad
+ rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real
+  Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlé
+ tico Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11.
+  Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Al
+ geciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sa
+ nt Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnà
+ stic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15
+ . SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE E
+ uropa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas
+  FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de
+  Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19.
+  CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n
+ \n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFon
+ t: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Cerro del Espino - Campo 1
 DTSTART;VALUE=DATE:20270124
@@ -725,28 +724,28 @@ DTEND;VALUE=DATE:20270125
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:22:8e9f0b5852e35091@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Real Murcia CF · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 31/01/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 22\nLocal: CE Europa\nVisitant: Real Murcia CF\nEsta
  t: Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30
   pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" —
-  24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF —
-  23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21
-  pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante
-  CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Cas
- tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén
-  CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza —
-  18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileñ
- o — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
+  24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24
+  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23
+  pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts
+ \n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13
+  PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 p
+ ts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla —
+  19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19
+  pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño
+  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
   — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
+  — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu
   — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
  arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
+ ca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa —
   13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
   pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
  os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
@@ -760,34 +759,34 @@ DTEND;VALUE=DATE:20270201
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:23:d7dd61422d485f51@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Algeciras CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 06/02/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 23\nLocal: Algeciras CF\nVisitant: CE Europa\nEstat:
   Partit\nEstadi: Estadio Municipal Nuevo Mirador\n\nClassificació\n1. Rea
  l Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villa
- rreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Rea
- l Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Al
- corcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércule
- s de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6.
-  FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Rea
- l Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8.
-  Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD
-  Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético
-  Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Ante
- quera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algecir
- as CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant An
- dreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic
-  de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD
-  Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europ
- a — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
-  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
- remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
-  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
- 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
- FEF Marcadores · marcadores.rfef.es
+ rreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD
+  Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real
+  Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Car
+ tagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Ali
+ cante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Mad
+ rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real
+  Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlé
+ tico Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11.
+  Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Al
+ geciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sa
+ nt Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnà
+ stic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15
+ . SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE E
+ uropa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas
+  FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de
+  Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19.
+  CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n
+ \n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFon
+ t: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Municipal Nuevo Mirador
 DTSTART;VALUE=DATE:20270207
@@ -795,34 +794,34 @@ DTEND;VALUE=DATE:20270208
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:24:ca0ecd38e9db1e35@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Águilas FC · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 14/02/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 24\nLocal: CE Europa\nVisitant: Águilas FC\nEstat: P
  artit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts
  \n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 p
- ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 p
- ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts
+ \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270214
@@ -830,34 +829,34 @@ DTEND;VALUE=DATE:20270215
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:25:5b3b429f0a2bc5ae@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Real Zaragoza - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 21/02/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 25\nLocal: Real Zaragoza\nVisitant: CE Europa\nEstat:
   Partit\nEstadi: Estadio Modular - Real Zaragoza\n\nClassificació\n1. Rea
  l Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villa
- rreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Rea
- l Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Al
- corcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércule
- s de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6.
-  FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Rea
- l Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8.
-  Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD
-  Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético
-  Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Ante
- quera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algecir
- as CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant An
- dreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic
-  de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD
-  Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europ
- a — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
-  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
- remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
-  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
- 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
- FEF Marcadores · marcadores.rfef.es
+ rreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD
+  Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real
+  Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Car
+ tagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Ali
+ cante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Mad
+ rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real
+  Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlé
+ tico Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11.
+  Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Al
+ geciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sa
+ nt Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnà
+ stic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15
+ . SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE E
+ uropa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas
+  FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de
+  Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19.
+  CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n
+ \n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFon
+ t: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Modular - Real Zaragoza
 DTSTART;VALUE=DATE:20270221
@@ -865,34 +864,34 @@ DTEND;VALUE=DATE:20270222
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:26:ad88a6baf8530aeb@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Juventud de Torremolinos CF · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 28/02/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 26\nLocal: CE Europa\nVisitant: Juventud de Torremoli
  nos CF\nEstat: Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zar
  agoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal
-  CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Mur
- cia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorc
- ón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de
-  Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC C
- artagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Mad
- rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real
-  Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiz
- a — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madr
- ileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera
-  CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+  CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcor
+ cón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia
+  CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena
+  — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21
+  pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante C
+ F — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Cas
+ tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén
+  CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Ma
+ drileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Anteque
+ ra CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras
+  CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andr
+ eu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de
+  Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hu
+ esca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa
+  — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
+  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
+ remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
+  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
+ 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
+ FEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270228
@@ -900,8 +899,8 @@ DTEND;VALUE=DATE:20270301
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:27:4a8f316815698cb7@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Atlético Madrileño - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 07/03/2027 17:00\nCompetició: Primera Federació
@@ -909,26 +908,25 @@ DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  \nEstat: Partit\nEstadi: Estadio Atlético de Madrid CD Alcalá de Henares
  \n\nClassificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E ·
   1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E
-  · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E
-  · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E ·
-  1 P · +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G
-  · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G ·
-  4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ · 5
-  G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G
-  · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E
-  · 4 P · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G
-  · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G ·
-  5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2
-  E · 5 P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4
-  E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ ·
-  4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G
-  · 6 E · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1
-  E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E
-  · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ
-  · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13
-  PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ
-  · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcadores · marcadores.rfe
- f.es
+  · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E ·
+  1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E ·
+  4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P
+  · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 D
+ G\n\n7. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P
+  · +0 DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E ·
+  4 P · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4
+  P · -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
+  · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E ·
+  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6
+  P · -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
+  P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G ·
+  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E
+  · 4 P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
+  P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P
+  · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G
+  · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ ·
+  2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ · 1 G
+  · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Atlético de Madrid CD Alcalá de Henares
 DTSTART;VALUE=DATE:20270307
@@ -936,34 +934,34 @@ DTEND;VALUE=DATE:20270308
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:28:f995251d36c5ac4f@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - FC Cartagena · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 14/03/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 28\nLocal: CE Europa\nVisitant: FC Cartagena\nEstat:
   Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 p
  ts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24
-  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23
-  pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts
- \n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF
-  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena —
-  19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 p
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 p
+ ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270314
@@ -971,28 +969,28 @@ DTEND;VALUE=DATE:20270315
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:29:4d596758bb5ed1b5@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:UE Sant Andreu - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 21/03/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 29\nLocal: UE Sant Andreu\nVisitant: CE Europa\nEsta
  t: Partit\nEstadi: Camp Municipal Narcís Sala\n\nClassificació\n1. Real
   Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villar
- real CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real
-  Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alc
- orcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules
-  de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. F
- C Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real
-  Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8.
-  Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD
-  Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético
+ real CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD A
+ lcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Mu
+ rcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartag
+ ena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza —
+  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alican
+ te CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid
+  Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Ja
+ én CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético
   Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Ante
  quera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algecir
- as CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant An
+ as CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant An
  dreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic
   de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD
-  Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europ
+  Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europ
  a — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
   — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
  remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
@@ -1006,34 +1004,34 @@ DTEND;VALUE=DATE:20270322
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:30:3f4b03914b5451e4@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - UD Ibiza · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 28/03/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 30\nLocal: CE Europa\nVisitant: UD Ibiza\nEstat: Par
  tit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts\n
     13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts
- \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts
- \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n
+    13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n
+    13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   1
+ 3 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ ·
+  6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270328
@@ -1041,34 +1039,34 @@ DTEND;VALUE=DATE:20270329
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:31:0bdd74350e95bce1@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - SD Huesca · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 04/04/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 31\nLocal: CE Europa\nVisitant: SD Huesca\nEstat: Par
  tit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 pts\n
     13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 pts
- \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 pts
- \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts\n
+    13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts\n
+    13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n   1
+ 3 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ ·
+  6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270404
@@ -1076,8 +1074,8 @@ DTEND;VALUE=DATE:20270405
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:32:603188ee5c66602e@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Gimnàstic de Tarragona - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 11/04/2027 17:00\nCompetició: Primera Federació
@@ -1085,19 +1083,19 @@ DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  pa\nEstat: Partit\nEstadi: Nou Estadi Costa Daurada\n\nClassificació\n1.
   Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. V
  illarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3.
-  Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. A
- D Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hér
- cules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n
- \n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7.
-  Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n
- \n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9
- . UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlé
+  AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Re
+ al Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC C
+ artagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Ali
+ cante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Mad
+ rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real
+  Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlé
  tico Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11.
   Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Al
- geciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sa
+ geciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sa
  nt Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnà
  stic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15
- . SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE E
+ . SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE E
  uropa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas
   FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de
   Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19.
@@ -1111,8 +1109,8 @@ DTEND;VALUE=DATE:20270412
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:33:75964b8b14072dc2@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Villarreal CF "B" - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 18/04/2027 17:00\nCompetició: Primera Federació
@@ -1120,25 +1118,25 @@ DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  tat: Partit\nEstadi: Cdad. Dva. José Manuel Llaneza - Mini Estadi\n\nClas
  sificació\n1. Real Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P ·
   +15 DG\n\n2. Villarreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P
-  · +11 DG\n\n3. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P
-  · +5 DG\n\n4. AD Alcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P ·
-  +10 DG\n\n5. Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E
-  · 4 P · +0 DG\n\n6. FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E ·
-  3 P · +4 DG\n\n7. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4
-  E · 4 P · +1 DG\n\n8. Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E
-  · 3 P · +0 DG\n\n9. UD Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P
-  · +3 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E
-  · 4 P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E ·
-  4 P · +2 DG\n\n12. Algeciras CF — 17 pts\n   12 PJ · 5 G · 2 E · 5
-  P · +0 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5
-  P · +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G ·
-  4 E · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   12 PJ · 3 G · 6 E
-  · 3 P · -1 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8
-  P · -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P
-  · -7 DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G
-  · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ ·
-  2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ · 1 G
-  · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcadores · marcadores.rfef.es
+  · +11 DG\n\n3. AD Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P ·
+  +11 DG\n\n4. Real Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P ·
+  +5 DG\n\n5. FC Cartagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6
+  DG\n\n6. UD Ibiza — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7
+ . Hércules de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0
+  DG\n\n8. Real Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P
+  · +1 DG\n\n9. Real Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P ·
+  -2 DG\n\n10. Atlético Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4
+  P · +3 DG\n\n11. Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P
+  · +2 DG\n\n12. Algeciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P ·
+  -1 DG\n\n13. UE Sant Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P ·
+  +1 DG\n\n14. Gimnàstic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E
+  · 5 P · -2 DG\n\n15. SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4
+  P · -5 DG\n\n16. CE Europa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P ·
+  -11 DG\n\n17. Águilas FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7
+  DG\n\n18. Juventud de Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E
+  · 6 P · -9 DG\n\n19. CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G ·
+  1 E · 10 P · -10 DG\n\n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E
+  · 8 P · -15 DG\n\nFont: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Cdad. Dva. José Manuel Llaneza - Mini Estadi
 DTSTART;VALUE=DATE:20270418
@@ -1146,34 +1144,34 @@ DTEND;VALUE=DATE:20270419
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:34:7afa4c684aa9bfbf@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - AD Alcorcón · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 25/04/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 34\nLocal: CE Europa\nVisitant: AD Alcorcón\nEstat:
   Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 p
  ts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24
-  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23
-  pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts
- \n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF
-  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena —
-  19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 p
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 p
+ ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270425
@@ -1181,34 +1179,34 @@ DTEND;VALUE=DATE:20270426
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:35:e71f28714fa6fbac@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CD Teruel - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 02/05/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 35\nLocal: CD Teruel\nVisitant: CE Europa\nEstat: Par
  tit\nEstadi: Campo Pinilla\n\nClassificació\n1. Real Zaragoza — 30 pts
  \n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24 p
- ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23 p
- ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts\n
-    12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF —
-  21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena — 19
-  pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 pts
+ \n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 pts
+ \n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Campo Pinilla
 DTSTART;VALUE=DATE:20270502
@@ -1216,34 +1214,34 @@ DTEND;VALUE=DATE:20270503
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:36:4ed8741f9fa698f5@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Antequera CF · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 09/05/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 36\nLocal: CE Europa\nVisitant: Antequera CF\nEstat:
   Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza — 30 p
  ts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "B" — 24
-  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia CF — 23
-  pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón — 21 pts
- \n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Alicante CF
-  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Cartagena —
-  19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madrid Castilla
-  — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real Jaén CF
-  — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza — 18
-  pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madrileño
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF
-  — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+  pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón — 24 p
+ ts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF — 23 p
+ ts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena — 22 pts\n
+    13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts\n   13 PJ
+  · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF — 21 pts\n
+    13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Castilla — 19 p
+ ts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén CF — 19 pts
+ \n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Madrileño — 1
+ 7 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera CF — 17 p
+ ts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF — 17 pts
+ \n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andreu — 16 pts
+ \n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de Tarragona
+  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Huesca — 1
+ 5 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa — 13 pts
+ \n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12 pts\n
+    13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolinos CF
+  — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Majadah
+ onda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Teruel
+  — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marcador
+ es · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270509
@@ -1251,34 +1249,34 @@ DTEND;VALUE=DATE:20270510
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:37:5c7666445ecbc891@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:Real Jaén CF - CE Europa · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 16/05/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 37\nLocal: Real Jaén CF\nVisitant: CE Europa\nEstat:
   Partit\nEstadi: Estadio Municipal de la Victoria\n\nClassificació\n1. Re
  al Zaragoza — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Vill
- arreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Re
- al Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD A
- lcorcón — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércul
- es de Alicante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6.
-  FC Cartagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Rea
- l Madrid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8.
-  Real Jaén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD
-  Ibiza — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético
-  Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Ante
- quera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algecir
- as CF — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant An
- dreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic
-  de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD
-  Huesca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europ
- a — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
-  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
- remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
-  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
- 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
- FEF Marcadores · marcadores.rfef.es
+ arreal CF "B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD
+  Alcorcón — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real
+  Murcia CF — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Car
+ tagena — 22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Ali
+ cante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Mad
+ rid Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real
+  Jaén CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlé
+ tico Madrileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11.
+  Antequera CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Al
+ geciras CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sa
+ nt Andreu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnà
+ stic de Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15
+ . SD Huesca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE E
+ uropa — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas
+  FC — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de
+  Torremolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19.
+  CF Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n
+ \n20. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFon
+ t: RFEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Estadio Municipal de la Victoria
 DTSTART;VALUE=DATE:20270516
@@ -1286,34 +1284,34 @@ DTEND;VALUE=DATE:20270517
 END:VEVENT
 BEGIN:VEVENT
 UID:europa:20262027:38:980110f517ca130c@europa-calendar
-DTSTAMP:20261122T123754Z
-SEQUENCE:1795351074
+DTSTAMP:20261123T144409Z
+SEQUENCE:1795445049
 SUMMARY:CE Europa - Real Madrid Castilla · Horari per confirmar
 DESCRIPTION:Hora del partit encara per confirmar.\nHora candidata no confir
  mada (font secundària): 23/05/2027 17:00\nCompetició: Primera Federació
   · Grup 2\nJornada: 38\nLocal: CE Europa\nVisitant: Real Madrid Castilla
  \nEstat: Partit\nEstadi: Nou Sardenya\n\nClassificació\n1. Real Zaragoza
   — 30 pts\n   13 PJ · 9 G · 3 E · 1 P · +15 DG\n\n2. Villarreal CF "
- B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. Real Murcia C
- F — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n4. AD Alcorcón
-  — 21 pts\n   12 PJ · 5 G · 6 E · 1 P · +10 DG\n\n5. Hércules de Al
- icante CF — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n6. FC Car
- tagena — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +4 DG\n\n7. Real Madri
- d Castilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n8. Real J
- aén CF — 19 pts\n   12 PJ · 5 G · 4 E · 3 P · +0 DG\n\n9. UD Ibiza
-  — 18 pts\n   12 PJ · 5 G · 3 E · 4 P · +3 DG\n\n10. Atlético Madri
- leño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Antequera
-  CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras CF
-  — 17 pts\n   12 PJ · 5 G · 2 E · 5 P · +0 DG\n\n13. UE Sant Andreu
-  — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de T
- arragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hues
- ca — 15 pts\n   12 PJ · 3 G · 6 E · 3 P · -1 DG\n\n16. CE Europa —
-  13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC — 12
-  pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Torremolin
- os CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF Rayo Ma
- jadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n20. CD Te
- ruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: RFEF Marc
- adores · marcadores.rfef.es
+ B" — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n3. AD Alcorcón
+  — 24 pts\n   13 PJ · 6 G · 6 E · 1 P · +11 DG\n\n4. Real Murcia CF
+  — 23 pts\n   13 PJ · 7 G · 2 E · 4 P · +5 DG\n\n5. FC Cartagena —
+  22 pts\n   13 PJ · 6 G · 4 E · 3 P · +6 DG\n\n6. UD Ibiza — 21 pts
+ \n   13 PJ · 6 G · 3 E · 4 P · +7 DG\n\n7. Hércules de Alicante CF
+  — 21 pts\n   13 PJ · 6 G · 3 E · 4 P · +0 DG\n\n8. Real Madrid Cas
+ tilla — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · +1 DG\n\n9. Real Jaén
+  CF — 19 pts\n   13 PJ · 5 G · 4 E · 4 P · -2 DG\n\n10. Atlético Ma
+ drileño — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +3 DG\n\n11. Anteque
+ ra CF — 17 pts\n   13 PJ · 4 G · 5 E · 4 P · +2 DG\n\n12. Algeciras
+  CF — 17 pts\n   13 PJ · 5 G · 2 E · 6 P · -1 DG\n\n13. UE Sant Andr
+ eu — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · +1 DG\n\n14. Gimnàstic de
+  Tarragona — 16 pts\n   13 PJ · 4 G · 4 E · 5 P · -2 DG\n\n15. SD Hu
+ esca — 15 pts\n   13 PJ · 3 G · 6 E · 4 P · -5 DG\n\n16. CE Europa
+  — 13 pts\n   13 PJ · 4 G · 1 E · 8 P · -11 DG\n\n17. Águilas FC
+  — 12 pts\n   13 PJ · 2 G · 6 E · 5 P · -7 DG\n\n18. Juventud de Tor
+ remolinos CF — 11 pts\n   13 PJ · 2 G · 5 E · 6 P · -9 DG\n\n19. CF
+  Rayo Majadahonda — 7 pts\n   13 PJ · 2 G · 1 E · 10 P · -10 DG\n\n2
+ 0. CD Teruel — 7 pts\n   13 PJ · 1 G · 4 E · 8 P · -15 DG\n\nFont: R
+ FEF Marcadores · marcadores.rfef.es
 STATUS:CONFIRMED
 LOCATION:Nou Sardenya
 DTSTART;VALUE=DATE:20270523

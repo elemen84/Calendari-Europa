@@ -1,7 +1,7 @@
 {
   "competition": "Primera Federación",
   "group": "Grupo 2",
-  "retrieved_at": "2026-11-22T13:37:54.890196+01:00",
+  "retrieved_at": "2026-11-23T15:44:09.704801+01:00",
   "rows": [
     {
       "drawn": 3,
@@ -28,6 +28,18 @@
       "won": 6
     },
     {
+      "drawn": 6,
+      "goal_difference": 11,
+      "goals_against": 14,
+      "goals_for": 25,
+      "lost": 1,
+      "played": 13,
+      "points": 24,
+      "position": 3,
+      "team": "AD Alcorcón",
+      "won": 6
+    },
+    {
       "drawn": 2,
       "goal_difference": 5,
       "goals_against": 11,
@@ -35,21 +47,33 @@
       "lost": 4,
       "played": 13,
       "points": 23,
-      "position": 3,
+      "position": 4,
       "team": "Real Murcia CF",
       "won": 7
     },
     {
-      "drawn": 6,
-      "goal_difference": 10,
-      "goals_against": 14,
-      "goals_for": 24,
-      "lost": 1,
-      "played": 12,
+      "drawn": 4,
+      "goal_difference": 6,
+      "goals_against": 15,
+      "goals_for": 21,
+      "lost": 3,
+      "played": 13,
+      "points": 22,
+      "position": 5,
+      "team": "FC Cartagena",
+      "won": 6
+    },
+    {
+      "drawn": 3,
+      "goal_difference": 7,
+      "goals_against": 15,
+      "goals_for": 22,
+      "lost": 4,
+      "played": 13,
       "points": 21,
-      "position": 4,
-      "team": "AD Alcorcón",
-      "won": 5
+      "position": 6,
+      "team": "UD Ibiza",
+      "won": 6
     },
     {
       "drawn": 3,
@@ -59,21 +83,9 @@
       "lost": 4,
       "played": 13,
       "points": 21,
-      "position": 5,
+      "position": 7,
       "team": "Hércules de Alicante CF",
       "won": 6
-    },
-    {
-      "drawn": 4,
-      "goal_difference": 4,
-      "goals_against": 13,
-      "goals_for": 17,
-      "lost": 3,
-      "played": 12,
-      "points": 19,
-      "position": 6,
-      "team": "FC Cartagena",
-      "won": 5
     },
     {
       "drawn": 4,
@@ -83,32 +95,20 @@
       "lost": 4,
       "played": 13,
       "points": 19,
-      "position": 7,
+      "position": 8,
       "team": "Real Madrid Castilla",
       "won": 5
     },
     {
       "drawn": 4,
-      "goal_difference": 0,
-      "goals_against": 19,
-      "goals_for": 19,
-      "lost": 3,
-      "played": 12,
-      "points": 19,
-      "position": 8,
-      "team": "Real Jaén CF",
-      "won": 5
-    },
-    {
-      "drawn": 3,
-      "goal_difference": 3,
-      "goals_against": 15,
-      "goals_for": 18,
+      "goal_difference": -2,
+      "goals_against": 23,
+      "goals_for": 21,
       "lost": 4,
-      "played": 12,
-      "points": 18,
+      "played": 13,
+      "points": 19,
       "position": 9,
-      "team": "UD Ibiza",
+      "team": "Real Jaén CF",
       "won": 5
     },
     {
@@ -137,11 +137,11 @@
     },
     {
       "drawn": 2,
-      "goal_difference": 0,
-      "goals_against": 18,
+      "goal_difference": -1,
+      "goals_against": 19,
       "goals_for": 18,
-      "lost": 5,
-      "played": 12,
+      "lost": 6,
+      "played": 13,
       "points": 17,
       "position": 12,
       "team": "Algeciras CF",
@@ -173,11 +173,11 @@
     },
     {
       "drawn": 6,
-      "goal_difference": -1,
-      "goals_against": 14,
+      "goal_difference": -5,
+      "goals_against": 18,
       "goals_for": 13,
-      "lost": 3,
-      "played": 12,
+      "lost": 4,
+      "played": 13,
       "points": 15,
       "position": 15,
       "team": "SD Huesca",
