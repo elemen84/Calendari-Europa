@@ -236,8 +236,9 @@
     "round_number": 15,
     "season": "2026/2027",
     "secondary_candidate_time": null,
-    "source_game_id": null,
+    "source_game_id": "70695888",
     "source_identifiers": {
+      "cod_acta": "70695888",
       "competition_id": "33836088",
       "group_id": "33836090",
       "primary_id": "1000120",
@@ -269,14 +270,15 @@
     "provenance": {
       "date": "rfef_live",
       "identity": "rfef_baseline",
-      "secondary_candidate_time": "secondary",
+      "secondary_crosscheck": "secondary",
       "stadium": "rfef_live",
-      "status": "rfef_live"
+      "status": "rfef_live",
+      "time": "rfef_live"
     },
     "round_name": null,
     "round_number": 16,
     "season": "2026/2027",
-    "secondary_candidate_time": "2026-12-13T20:00:00+01:00",
+    "secondary_candidate_time": null,
     "source_game_id": null,
     "source_identifiers": {
       "competition_id": "33836088",
@@ -293,9 +295,9 @@
     },
     "source_url": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada",
     "start_date": "2026-12-13",
-    "start_datetime": null,
+    "start_datetime": "2026-12-13T20:00:00+01:00",
     "status": "scheduled",
-    "time_confirmed": false,
+    "time_confirmed": true,
     "venue": "Estadio Municipal El Pozuelo"
   },
   {
@@ -1397,10 +1399,10 @@
     "provenance": {
       "date": "rfef_official_schedule",
       "identity": "rfef_baseline",
-      "score": "cache",
+      "score": "rfef_live",
       "secondary_crosscheck": "secondary",
       "stadium": "known_europa_home_venue",
-      "status": "cache",
+      "status": "rfef_live",
       "time": "rfef_official_schedule"
     },
     "round_name": null,
