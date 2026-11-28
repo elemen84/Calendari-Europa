@@ -1,7 +1,7 @@
 {
   "competition": "Primera Federación",
   "group": "Grupo 2",
-  "retrieved_at": "2026-11-27T14:55:09.983826+01:00",
+  "retrieved_at": "2026-11-28T14:03:44.719493+01:00",
   "rows": [
     {
       "drawn": 3,
@@ -77,15 +77,27 @@
     },
     {
       "drawn": 3,
-      "goal_difference": 0,
-      "goals_against": 15,
+      "goal_difference": -1,
+      "goals_against": 16,
       "goals_for": 15,
-      "lost": 4,
-      "played": 13,
+      "lost": 5,
+      "played": 14,
       "points": 21,
       "position": 7,
       "team": "Hércules de Alicante CF",
       "won": 6
+    },
+    {
+      "drawn": 5,
+      "goal_difference": 3,
+      "goals_against": 18,
+      "goals_for": 21,
+      "lost": 4,
+      "played": 14,
+      "points": 20,
+      "position": 8,
+      "team": "Antequera CF",
+      "won": 5
     },
     {
       "drawn": 4,
@@ -95,7 +107,7 @@
       "lost": 4,
       "played": 13,
       "points": 19,
-      "position": 8,
+      "position": 9,
       "team": "Real Madrid Castilla",
       "won": 5
     },
@@ -107,7 +119,7 @@
       "lost": 4,
       "played": 13,
       "points": 19,
-      "position": 9,
+      "position": 10,
       "team": "Real Jaén CF",
       "won": 5
     },
@@ -119,20 +131,8 @@
       "lost": 4,
       "played": 13,
       "points": 17,
-      "position": 10,
-      "team": "Atlético Madrileño",
-      "won": 4
-    },
-    {
-      "drawn": 5,
-      "goal_difference": 2,
-      "goals_against": 18,
-      "goals_for": 20,
-      "lost": 4,
-      "played": 13,
-      "points": 17,
       "position": 11,
-      "team": "Antequera CF",
+      "team": "Atlético Madrileño",
       "won": 4
     },
     {
